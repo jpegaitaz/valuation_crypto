@@ -1,0 +1,465 @@
+2025-03-01 20:26:28,279 - Analyzing sentiment for Bitcoin (BTC)
+2025-03-01 20:27:06,417 - Analyzing sentiment for Ethereum (ETH)
+2025-03-01 20:27:46,815 - Analyzing sentiment for Tether USDt (USDT)
+2025-03-01 20:28:18,546 - Analyzing sentiment for XRP (XRP)
+2025-03-01 20:28:53,661 - Analyzing sentiment for BNB (BNB)
+2025-03-01 20:29:30,110 - Analyzing sentiment for Solana (SOL)
+2025-03-01 20:30:11,250 - Analyzing sentiment for USDC (USDC)
+2025-03-01 20:30:46,626 - Analyzing sentiment for Dogecoin (DOGE)
+2025-03-01 20:31:22,081 - Analyzing sentiment for Cardano (ADA)
+2025-03-01 20:31:56,111 - Analyzing sentiment for TRON (TRX)
+2025-03-01 20:32:28,338 - Analyzing sentiment for Hedera (HBAR)
+2025-03-01 20:32:57,179 - Analyzing sentiment for Chainlink (LINK)
+2025-03-01 20:33:37,765 - Analyzing sentiment for Litecoin (LTC)
+2025-03-01 20:34:08,813 - Analyzing sentiment for Stellar (XLM)
+2025-03-01 20:34:41,355 - Analyzing sentiment for UNUS SED LEO (LEO)
+2025-03-01 20:35:01,587 - Analyzing sentiment for Sui (SUI)
+2025-03-01 20:35:29,044 - Analyzing sentiment for Avalanche (AVAX)
+2025-03-01 20:36:01,709 - Analyzing sentiment for Toncoin (TON)
+2025-03-01 20:36:35,131 - Analyzing sentiment for Shiba Inu (SHIB)
+2025-03-01 20:37:08,124 - Analyzing sentiment for MANTRA (OM)
+2025-03-01 20:37:31,384 - Analyzing sentiment for Polkadot (DOT)
+2025-03-01 20:38:06,390 - Analyzing sentiment for Hyperliquid (HYPE)
+2025-03-01 20:38:44,528 - Analyzing sentiment for Bitcoin Cash (BCH)
+2025-03-01 20:39:21,041 - Analyzing sentiment for Ethena USDe (USDE)
+2025-03-01 20:39:44,672 - Analyzing sentiment for Dai (DAI)
+2025-03-01 20:40:20,385 - Analyzing sentiment for Bitget Token (BGB)
+2025-03-01 20:40:51,475 - Analyzing sentiment for Uniswap (UNI)
+2025-03-01 20:41:30,045 - Analyzing sentiment for Monero (XMR)
+2025-03-01 20:42:00,729 - Analyzing sentiment for NEAR Protocol (NEAR)
+2025-03-01 20:42:40,771 - Analyzing sentiment for Aptos (APT)
+2025-03-01 20:43:09,618 - Analyzing sentiment for Pepe (PEPE)
+2025-03-01 20:43:40,596 - Analyzing sentiment for Ondo (ONDO)
+2025-03-01 20:44:04,556 - Analyzing sentiment for Internet Computer (ICP)
+2025-03-01 20:44:40,268 - Analyzing sentiment for Aave (AAVE)
+2025-03-01 20:45:10,823 - Analyzing sentiment for Ethereum Classic (ETC)
+2025-03-01 20:45:49,592 - Analyzing sentiment for Bittensor (TAO)
+2025-03-01 20:46:13,040 - Analyzing sentiment for OKB (OKB)
+2025-03-01 20:46:35,462 - Analyzing sentiment for OFFICIAL TRUMP (TRUMP)
+2025-03-01 20:47:13,727 - Analyzing sentiment for Mantle (MNT)
+2025-03-01 20:47:36,934 - Analyzing sentiment for POL (prev. MATIC) (POL)
+2025-03-01 20:47:57,909 - No trend data for POL (prev. MATIC). Returning 0.
+2025-03-01 20:48:02,913 - Analyzing sentiment for VeChain (VET)
+2025-03-01 20:48:35,898 - Analyzing sentiment for Celestia (TIA)
+2025-03-01 20:49:01,626 - Analyzing sentiment for Sonic (prev. FTM) (S)
+2025-03-01 20:49:17,355 - No trend data for Sonic (prev. FTM). Returning 0.
+2025-03-01 20:49:22,353 - Analyzing sentiment for Filecoin (FIL)
+2025-03-01 20:49:49,475 - Analyzing sentiment for First Digital USD (FDUSD)
+2025-03-01 20:50:24,375 - Analyzing sentiment for Algorand (ALGO)
+2025-03-01 20:50:54,329 - Analyzing sentiment for Kaspa (KAS)
+2025-03-01 20:51:21,422 - Analyzing sentiment for Jupiter (JUP)
+2025-03-01 20:51:47,081 - Analyzing sentiment for Render (RENDER)
+2025-03-01 20:52:15,171 - Analyzing sentiment for Cronos (CRO)
+2025-03-01 20:52:47,861 - Error fetching volume for BTC/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 20:53:04,090 - Error fetching volume for BTC/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 20:53:07,955 - Rank: 1, Bitcoin: Current Price: $85214.65, Market Cap: $1689882164483.08, Circulating Supply: 19830887, Adjusted Annual Velocity: 57122.05, Valuation Difference: -28092.6, Valuation Difference %: -32.97%, Total 24h Volume: 2905913418.63, Market Sentiment %: 0.07, Current Mentions 557, Previous Mentions 43, Combined Sentiment Score 0.06799797376555625
+2025-03-01 20:54:01,585 - Error fetching volume for ETH/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 20:54:19,338 - Error fetching volume for ETH/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 20:54:23,017 - Rank: 2, Ethereum: Current Price: $2219.73, Market Cap: $267662381524.65, Circulating Supply: 120583070.35, Adjusted Annual Velocity: 3247.96, Valuation Difference: 1028.23, Valuation Difference %: 46.32%, Total 24h Volume: 1049702974.3, Market Sentiment %: 0.02, Current Mentions 600, Previous Mentions 0, Combined Sentiment Score 0.022204156490830032
+2025-03-01 20:55:11,899 - Error fetching volume for USDT/USD on binance: binance does not have market symbol USDT/USD
+2025-03-01 20:55:11,899 - Error fetching volume for USDT/USD on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 20:55:28,116 - Error fetching volume for USDT/USD on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 20:55:32,849 - Error fetching volume for USDT/USD on huobi: huobi does not have market symbol USDT/USD
+2025-03-01 20:55:32,854 - Rank: 3, Tether USDt: Current Price: $1.0, Market Cap: $142100150730.79, Circulating Supply: 142192589364.2, Adjusted Annual Velocity: 0.14, Valuation Difference: -0.86, Valuation Difference %: -86.0%, Total 24h Volume: 59011562.23, Market Sentiment %: -0.07, Current Mentions 294, Previous Mentions 199, Combined Sentiment Score -0.07658310095402107
+2025-03-01 20:56:06,456 - Error fetching volume for XRP/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 20:56:23,876 - Error fetching volume for XRP/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 20:56:31,521 - Rank: 4, XRP: Current Price: $2.16, Market Cap: $125349971336.97, Circulating Supply: 57949738512, Adjusted Annual Velocity: 1.81, Valuation Difference: -0.35, Valuation Difference %: -16.2%, Total 24h Volume: 346349895.53, Market Sentiment %: -0.17, Current Mentions 331, Previous Mentions 226, Combined Sentiment Score -0.16879241618109705
+2025-03-01 20:57:12,873 - Error fetching volume for BNB/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 20:57:14,115 - Error fetching volume for BNB/USD on kraken: kraken does not have market symbol BNB/USD
+2025-03-01 20:57:26,235 - Error fetching volume for BNB/USD on bitfinex: bitfinex does not have market symbol BNB/USD
+2025-03-01 20:57:30,499 - Rank: 5, BNB: Current Price: $604.19, Market Cap: $86082049262.2, Circulating Supply: 142476024.43, Adjusted Annual Velocity: 661.93, Valuation Difference: 57.74, Valuation Difference %: 9.56%, Total 24h Volume: 192981003.95, Market Sentiment %: 0.34, Current Mentions 340, Previous Mentions 260, Combined Sentiment Score 0.3388800982146265
+2025-03-01 20:58:10,319 - Error fetching volume for SOL/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 20:58:26,755 - Error fetching volume for SOL/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 20:58:31,222 - Rank: 6, Solana: Current Price: $140.55, Market Cap: $71278980195.03, Circulating Supply: 507155544.44, Adjusted Annual Velocity: 483.91, Valuation Difference: 343.36, Valuation Difference %: 244.3%, Total 24h Volume: 659052053.79, Market Sentiment %: 0.02, Current Mentions 598, Previous Mentions 2, Combined Sentiment Score 0.020208968130792093
+2025-03-01 20:59:29,456 - Error fetching volume for USDC/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 20:59:45,754 - Error fetching volume for USDC/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 20:59:49,549 - Rank: 7, USDC: Current Price: $1.0, Market Cap: $56349352684.63, Circulating Supply: 56361152709.45, Adjusted Annual Velocity: 5.16, Valuation Difference: 4.16, Valuation Difference %: 416.0%, Total 24h Volume: 735560924.97, Market Sentiment %: 0.08, Current Mentions 374, Previous Mentions 110, Combined Sentiment Score 0.0845959531397954
+2025-03-01 21:00:31,941 - Error fetching volume for DOGE/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:00:48,314 - Error fetching volume for DOGE/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:00:52,920 - Rank: 8, Dogecoin: Current Price: $0.2, Market Cap: $30195779363.1, Circulating Supply: 148250836383.71, Adjusted Annual Velocity: 0.35, Valuation Difference: 0.15, Valuation Difference %: 75.0%, Total 24h Volume: 205876406.06, Market Sentiment %: -0.31, Current Mentions 415, Previous Mentions 141, Combined Sentiment Score -0.3086431067929603
+2025-03-01 21:01:45,973 - Error fetching volume for ADA/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:02:02,573 - Error fetching volume for ADA/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:02:06,872 - Rank: 9, Cardano: Current Price: $0.64, Market Cap: $22505385378.7, Circulating Supply: 35212423444.4, Adjusted Annual Velocity: 0.82, Valuation Difference: 0.18, Valuation Difference %: 28.12%, Total 24h Volume: 100436088.65, Market Sentiment %: -0.21, Current Mentions 320, Previous Mentions 225, Combined Sentiment Score -0.20825454131052085
+2025-03-01 21:03:03,720 - Error fetching volume for TRX/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:03:20,153 - Error fetching volume for TRX/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:03:24,710 - Rank: 10, TRON: Current Price: $0.23, Market Cap: $19859221691.62, Circulating Supply: 86065320618.59, Adjusted Annual Velocity: 0.57, Valuation Difference: 0.34, Valuation Difference %: 147.83%, Total 24h Volume: 113547677.0, Market Sentiment %: 0.19, Current Mentions 256, Previous Mentions 266, Combined Sentiment Score 0.19744748355560957
+2025-03-01 21:04:22,299 - Error fetching volume for HBAR/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:04:23,569 - Error fetching volume for HBAR/USD on kraken: kraken does not have market symbol HBAR/USD
+2025-03-01 21:04:35,681 - Error fetching volume for HBAR/USD on bitfinex: bitfinex does not have market symbol HBAR/USD
+2025-03-01 21:04:41,174 - Rank: 11, Hedera: Current Price: $0.24, Market Cap: $10180485189.24, Circulating Supply: 41908413178.62, Adjusted Annual Velocity: 1.43, Valuation Difference: 1.19, Valuation Difference %: 495.83%, Total 24h Volume: 171913499.5, Market Sentiment %: -0.05, Current Mentions 217, Previous Mentions 106, Combined Sentiment Score -0.04384344899379398
+2025-03-01 21:05:41,985 - Error fetching volume for LINK/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:05:58,272 - Error fetching volume for LINK/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:06:02,032 - Rank: 12, Chainlink: Current Price: $14.8, Market Cap: $9442684023.58, Circulating Supply: 638099970.45, Adjusted Annual Velocity: 28.9, Valuation Difference: 14.1, Valuation Difference %: 95.27%, Total 24h Volume: 51688110.45, Market Sentiment %: -0.02, Current Mentions 521, Previous Mentions 79, Combined Sentiment Score -0.022583500292198355
+2025-03-01 21:06:57,707 - Error fetching volume for LTC/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:07:13,976 - Error fetching volume for LTC/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:07:17,758 - Rank: 13, Litecoin: Current Price: $124.87, Market Cap: $9434951551.7, Circulating Supply: 75558468.3, Adjusted Annual Velocity: 698.82, Valuation Difference: 573.95, Valuation Difference %: 459.64%, Total 24h Volume: 145933743.08, Market Sentiment %: -0.01, Current Mentions 248, Previous Mentions 271, Combined Sentiment Score -0.008709714282112
+2025-03-01 21:08:01,326 - Error fetching volume for XLM/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:08:17,562 - Error fetching volume for XLM/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:08:21,349 - Rank: 14, Stellar: Current Price: $0.3, Market Cap: $9266149351.5, Circulating Supply: 30684384883.37, Adjusted Annual Velocity: 0.36, Valuation Difference: 0.06, Valuation Difference %: 20.0%, Total 24h Volume: 37561664.99, Market Sentiment %: -0.2, Current Mentions 234, Previous Mentions 270, Combined Sentiment Score -0.19468458799886657
+2025-03-01 21:09:19,167 - Error fetching volume for LEO/USD on binance: binance does not have market symbol LEO/USD
+2025-03-01 21:09:19,167 - Error fetching volume for LEO/USD on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:09:20,404 - Error fetching volume for LEO/USD on kraken: kraken does not have market symbol LEO/USD
+2025-03-01 21:09:34,548 - Error fetching volume for LEO/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:09:38,281 - Error fetching volume for LEO/USD on huobi: huobi does not have market symbol LEO/USD
+2025-03-01 21:09:38,286 - Rank: 15, UNUS SED LEO: Current Price: $9.78, Market Cap: $9032513910.52, Circulating Supply: 924029981.9, Adjusted Annual Velocity: 0.0, Valuation Difference: -9.78, Valuation Difference %: -100.0%, Total 24h Volume: 0.0, Market Sentiment %: 0, Current Mentions 0, Previous Mentions 34, Combined Sentiment Score -0.14
+2025-03-01 21:10:27,213 - Error fetching volume for SUI/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:10:43,442 - Error fetching volume for SUI/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:10:47,327 - Rank: 16, Sui: Current Price: $2.83, Market Cap: $8961878280.9, Circulating Supply: 3169845047.48, Adjusted Annual Velocity: 22.47, Valuation Difference: 19.64, Valuation Difference %: 693.99%, Total 24h Volume: 146915117.29, Market Sentiment %: 0.33, Current Mentions 265, Previous Mentions 38, Combined Sentiment Score 0.32825503440803694
+2025-03-01 21:11:38,914 - Error fetching volume for AVAX/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:11:55,460 - Error fetching volume for AVAX/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:11:59,079 - Rank: 17, Avalanche: Current Price: $21.6, Market Cap: $8943206509.98, Circulating Supply: 414086901.51, Adjusted Annual Velocity: 41.55, Valuation Difference: 19.95, Valuation Difference %: 92.36%, Total 24h Volume: 48856757.22, Market Sentiment %: -0.04, Current Mentions 284, Previous Mentions 175, Combined Sentiment Score -0.03539178955798201
+2025-03-01 21:13:01,249 - Error fetching volume for TON/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:13:17,558 - Error fetching volume for TON/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:13:21,152 - Rank: 18, Toncoin: Current Price: $3.28, Market Cap: $8190339087.63, Circulating Supply: 2495702833.42, Adjusted Annual Velocity: 2.8, Valuation Difference: -0.48, Valuation Difference %: -14.63%, Total 24h Volume: 29461612.96, Market Sentiment %: -0.35, Current Mentions 367, Previous Mentions 133, Combined Sentiment Score -0.3498538625643116
+2025-03-01 21:14:07,246 - Error fetching volume for SHIB/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:14:23,459 - Error fetching volume for SHIB/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:14:27,143 - Rank: 19, Shiba Inu: Current Price: $0.0, Market Cap: $8004457223.57, Circulating Supply: 589253610680239.4, Adjusted Annual Velocity: 0.0, Valuation Difference: 0.0, Valuation Difference %: 0%, Total 24h Volume: 18058566.27, Market Sentiment %: 0, Current Mentions 334, Previous Mentions 169, Combined Sentiment Score -0.3176313556939569
+2025-03-01 21:15:24,300 - Error fetching volume for OM/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:15:38,582 - Error fetching volume for OM/USD on bitfinex: bitfinex does not have market symbol OM/USD
+2025-03-01 21:15:41,982 - Error fetching volume for OM/USD on huobi: huobi does not have market symbol OM/USD
+2025-03-01 21:15:41,987 - Rank: 20, MANTRA: Current Price: $7.47, Market Cap: $7275031307.61, Circulating Supply: 974362090.24, Adjusted Annual Velocity: 8.27, Valuation Difference: 0.8, Valuation Difference %: 10.71%, Total 24h Volume: 17418502.46, Market Sentiment %: 0.27, Current Mentions 36, Previous Mentions 153, Combined Sentiment Score 0.2668174457374891
+2025-03-01 21:16:38,738 - Error fetching volume for DOT/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:16:55,235 - Error fetching volume for DOT/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:16:59,289 - Rank: 21, Polkadot: Current Price: $4.63, Market Cap: $7188751118.79, Circulating Supply: 1553578873.96, Adjusted Annual Velocity: 9.21, Valuation Difference: 4.58, Valuation Difference %: 98.92%, Total 24h Volume: 38133537.39, Market Sentiment %: 0.03, Current Mentions 327, Previous Mentions 201, Combined Sentiment Score 0.027897982651293438
+2025-03-01 21:17:31,885 - Error fetching volume for HYPE/USD on binance: binance does not have market symbol HYPE/USD
+2025-03-01 21:17:31,887 - Error fetching volume for HYPE/USD on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:17:33,176 - Error fetching volume for HYPE/USD on kraken: kraken does not have market symbol HYPE/USD
+2025-03-01 21:17:46,225 - Error fetching volume for HYPE/USD on bitfinex: bitfinex does not have market symbol HYPE/USD
+2025-03-01 21:17:49,956 - Error fetching volume for HYPE/USDT on huobi: huobi {"ts":1740860269942,"status":"error","err-code":"invalid-parameter","err-msg":"invalid symbol"}
+2025-03-01 21:17:49,969 - Rank: 22, Hyperliquid: Current Price: $19.22, Market Cap: $6418553877.0, Circulating Supply: 333928180, Adjusted Annual Velocity: 0.0, Valuation Difference: -19.22, Valuation Difference %: -100.0%, Total 24h Volume: 0.0, Market Sentiment %: 0, Current Mentions 457, Previous Mentions 113, Combined Sentiment Score -0.14600443168647562
+2025-03-01 21:18:42,795 - Error fetching volume for BCH/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:18:59,130 - Error fetching volume for BCH/USD on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:19:02,354 - Rank: 23, Bitcoin Cash: Current Price: $309.77, Market Cap: $6144699865.07, Circulating Supply: 19836156.25, Adjusted Annual Velocity: 471.52, Valuation Difference: 161.75, Valuation Difference %: 52.22%, Total 24h Volume: 26868562.63, Market Sentiment %: -0.05, Current Mentions 496, Previous Mentions 104, Combined Sentiment Score -0.046274761407822
+2025-03-01 21:19:52,609 - Error fetching volume for USDE/USD on binance: binance does not have market symbol USDE/USD
+2025-03-01 21:19:52,610 - Error fetching volume for USDE/USD on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:19:53,804 - Error fetching volume for USDE/USD on kraken: kraken does not have market symbol USDE/USD
+2025-03-01 21:20:05,905 - Error fetching volume for USDE/USD on bitfinex: bitfinex does not have market symbol USDE/USD
+2025-03-01 21:20:09,119 - Error fetching volume for USDE/USD on huobi: huobi does not have market symbol USDE/USD
+2025-03-01 21:20:09,125 - Rank: 24, Ethena USDe: Current Price: $1.0, Market Cap: $5456896601.53, Circulating Supply: 5463651055.36, Adjusted Annual Velocity: 0.0, Valuation Difference: -1.0, Valuation Difference %: -100.0%, Total 24h Volume: 0.0, Market Sentiment %: 0, Current Mentions 116, Previous Mentions 12, Combined Sentiment Score -0.2683143650337961
+2025-03-01 21:21:06,564 - Error fetching volume for DAI/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:21:22,828 - Error fetching volume for DAI/USD on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:21:26,071 - Rank: 25, Dai: Current Price: $1.0, Market Cap: $5364597762.04, Circulating Supply: 5365382702.66, Adjusted Annual Velocity: 0.13, Valuation Difference: -0.87, Valuation Difference %: -87.0%, Total 24h Volume: 1418155.2, Market Sentiment %: 0.3, Current Mentions 423, Previous Mentions 120, Combined Sentiment Score 0.3220360036187146
+2025-03-01 21:22:01,537 - Error fetching volume for BGB/USD on binance: binance does not have market symbol BGB/USD
+2025-03-01 21:22:01,538 - Error fetching volume for BGB/USD on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:22:02,802 - Error fetching volume for BGB/USD on kraken: kraken does not have market symbol BGB/USD
+2025-03-01 21:22:16,940 - Error fetching volume for BGB/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:22:20,421 - Error fetching volume for BGB/USD on huobi: huobi does not have market symbol BGB/USD
+2025-03-01 21:22:20,426 - Rank: 26, Bitget Token: Current Price: $4.05, Market Cap: $4854931064.46, Circulating Supply: 1200000000, Adjusted Annual Velocity: 0.0, Valuation Difference: -4.05, Valuation Difference %: -100.0%, Total 24h Volume: 0.0, Market Sentiment %: 0, Current Mentions 270, Previous Mentions 121, Combined Sentiment Score -0.01846247568795524
+2025-03-01 21:23:03,292 - Error fetching volume for UNI/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:23:19,577 - Error fetching volume for UNI/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:23:23,889 - Rank: 27, Uniswap: Current Price: $7.49, Market Cap: $4497568526.64, Circulating Supply: 600518037.71, Adjusted Annual Velocity: 19.25, Valuation Difference: 11.76, Valuation Difference %: 157.01%, Total 24h Volume: 35619149.55, Market Sentiment %: -0.11, Current Mentions 377, Previous Mentions 221, Combined Sentiment Score -0.1107150195010897
+2025-03-01 21:23:59,708 - Error fetching volume for XMR/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:24:16,027 - Error fetching volume for XMR/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:24:19,323 - Rank: 28, Monero: Current Price: $222.15, Market Cap: $4097855806.59, Circulating Supply: 18446744.07, Adjusted Annual Velocity: 165.36, Valuation Difference: -56.79, Valuation Difference %: -25.56%, Total 24h Volume: 8701928.31, Market Sentiment %: -0.04, Current Mentions 218, Previous Mentions 290, Combined Sentiment Score -0.03963536375724659
+2025-03-01 21:25:10,435 - Error fetching volume for NEAR/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:25:26,816 - Error fetching volume for NEAR/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:25:30,655 - Rank: 29, NEAR Protocol: Current Price: $3.28, Market Cap: $3896680476.94, Circulating Supply: 1187984699, Adjusted Annual Velocity: 11.99, Valuation Difference: 8.71, Valuation Difference %: 265.55%, Total 24h Volume: 49197135.66, Market Sentiment %: -0.21, Current Mentions 383, Previous Mentions 185, Combined Sentiment Score -0.20673423299823973
+2025-03-01 21:26:04,833 - Error fetching volume for APT/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:26:21,110 - Error fetching volume for APT/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:26:24,143 - Rank: 30, Aptos: Current Price: $6.39, Market Cap: $3766775267.04, Circulating Supply: 589135750.05, Adjusted Annual Velocity: 40.79, Valuation Difference: 34.4, Valuation Difference %: 538.34%, Total 24h Volume: 48227779.0, Market Sentiment %: 0.37, Current Mentions 93, Previous Mentions 256, Combined Sentiment Score 0.3650620635381684
+2025-03-01 21:27:20,072 - Error fetching volume for PEPE/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:27:36,302 - Error fetching volume for PEPE/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:27:40,147 - Rank: 31, Pepe: Current Price: $0.0, Market Cap: $3189807731.01, Circulating Supply: 420689899653543.56, Adjusted Annual Velocity: 0.0, Valuation Difference: 0.0, Valuation Difference %: 0%, Total 24h Volume: 190763597.12, Market Sentiment %: 0, Current Mentions 349, Previous Mentions 62, Combined Sentiment Score -0.10036747492998309
+2025-03-01 21:28:25,942 - Error fetching volume for ONDO/USD on binance: binance does not have market symbol ONDO/USD
+2025-03-01 21:28:25,943 - Error fetching volume for ONDO/USD on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:28:40,192 - Error fetching volume for ONDO/USD on bitfinex: bitfinex does not have market symbol ONDO/USD
+2025-03-01 21:28:43,975 - Rank: 32, Ondo: Current Price: $1.01, Market Cap: $3180774866.7, Circulating Supply: 3159107529, Adjusted Annual Velocity: 0.62, Valuation Difference: -0.39, Valuation Difference %: -38.61%, Total 24h Volume: 4176663.22, Market Sentiment %: 0.29, Current Mentions 152, Previous Mentions 15, Combined Sentiment Score 0.28308672714766764
+2025-03-01 21:29:38,531 - Error fetching volume for ICP/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:29:54,993 - Error fetching volume for ICP/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:29:59,136 - Rank: 33, Internet Computer: Current Price: $6.46, Market Cap: $3108564459.65, Circulating Supply: 481361080.19, Adjusted Annual Velocity: 7.2, Valuation Difference: 0.74, Valuation Difference %: 11.46%, Total 24h Volume: 7172613.27, Market Sentiment %: 0.32, Current Mentions 336, Previous Mentions 210, Combined Sentiment Score 0.3243014577866432
+2025-03-01 21:30:37,851 - Error fetching volume for AAVE/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:30:54,208 - Error fetching volume for AAVE/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:30:59,908 - Rank: 34, Aave: Current Price: $193.2, Market Cap: $2913965315.47, Circulating Supply: 15082974.93, Adjusted Annual Velocity: 802.44, Valuation Difference: 609.24, Valuation Difference %: 315.34%, Total 24h Volume: 28284634.35, Market Sentiment %: 0.17, Current Mentions 231, Previous Mentions 207, Combined Sentiment Score 0.17235400215555238
+2025-03-01 21:31:58,703 - Error fetching volume for ETC/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:32:15,047 - Error fetching volume for ETC/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:32:18,869 - Rank: 35, Ethereum Classic: Current Price: $19.03, Market Cap: $2872090937.13, Circulating Supply: 150946899.74, Adjusted Annual Velocity: 48.6, Valuation Difference: 29.57, Valuation Difference %: 155.39%, Total 24h Volume: 29937371.32, Market Sentiment %: -0.33, Current Mentions 568, Previous Mentions 32, Combined Sentiment Score -0.32859623328411675
+2025-03-01 21:33:04,113 - Error fetching volume for TAO/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:33:18,452 - Error fetching volume for TAO/USD on bitfinex: bitfinex does not have market symbol TAO/USD
+2025-03-01 21:33:23,207 - Error fetching volume for TAO/USDT on huobi: huobi {"ts":1740861203190,"status":"error","err-code":"invalid-parameter","err-msg":"invalid symbol"}
+2025-03-01 21:33:23,225 - Rank: 36, Bittensor: Current Price: $330.21, Market Cap: $2777716457.99, Circulating Supply: 8412071, Adjusted Annual Velocity: 1864.09, Valuation Difference: 1533.88, Valuation Difference %: 464.52%, Total 24h Volume: 41680650.8, Market Sentiment %: 0.03, Current Mentions 80, Previous Mentions 159, Combined Sentiment Score 0.030725968986404492
+2025-03-01 21:34:06,035 - Error fetching volume for OKB/USD on binance: binance does not have market symbol OKB/USD
+2025-03-01 21:34:06,035 - Error fetching volume for OKB/USD on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:34:07,296 - Error fetching volume for OKB/USD on kraken: kraken does not have market symbol OKB/USD
+2025-03-01 21:34:19,424 - Error fetching volume for OKB/USD on bitfinex: bitfinex does not have market symbol OKB/USD
+2025-03-01 21:34:22,988 - Error fetching volume for OKB/USD on huobi: huobi does not have market symbol OKB/USD
+2025-03-01 21:34:22,992 - Rank: 37, OKB: Current Price: $45.24, Market Cap: $2714628618.3, Circulating Supply: 60000000, Adjusted Annual Velocity: 0.0, Valuation Difference: -45.24, Valuation Difference %: -100.0%, Total 24h Volume: 0.0, Market Sentiment %: 0, Current Mentions 23, Previous Mentions 19, Combined Sentiment Score 0.4431234877352053
+2025-03-01 21:35:25,701 - Error fetching volume for TRUMP/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:35:40,103 - Error fetching volume for TRUMP/USD on bitfinex: bitfinex does not have market symbol TRUMP/USD
+2025-03-01 21:35:45,158 - Rank: 38, OFFICIAL TRUMP: Current Price: $12.98, Market Cap: $2596972846.21, Circulating Supply: 199999551.29, Adjusted Annual Velocity: 392.02, Valuation Difference: 379.04, Valuation Difference %: 2920.18%, Total 24h Volume: 351588699.67, Market Sentiment %: -0.39, Current Mentions 428, Previous Mentions 172, Combined Sentiment Score -0.38905079194854564
+2025-03-01 21:36:28,654 - Error fetching volume for MNT/USD on binance: binance does not have market symbol MNT/USD
+2025-03-01 21:36:28,655 - Error fetching volume for MNT/USD on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:36:43,108 - Error fetching volume for MNT/USD on bitfinex: bitfinex does not have market symbol MNT/USD
+2025-03-01 21:36:47,255 - Rank: 39, Mantle: Current Price: $0.75, Market Cap: $2512967357.21, Circulating Supply: 3364694382.84, Adjusted Annual Velocity: 0.04, Valuation Difference: -0.71, Valuation Difference %: -94.67%, Total 24h Volume: 295062.86, Market Sentiment %: 0.33, Current Mentions 51, Previous Mentions 116, Combined Sentiment Score 0.2713543729691598
+2025-03-01 21:37:38,082 - Error fetching volume for POL/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:37:54,561 - Error fetching volume for POL/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:37:59,585 - Rank: 40, POL (prev. MATIC): Current Price: $0.28, Market Cap: $2369756689.01, Circulating Supply: 8584841636.56, Adjusted Annual Velocity: 0.17, Valuation Difference: -0.11, Valuation Difference %: -39.29%, Total 24h Volume: 7277955.84, Market Sentiment %: -0.45, Current Mentions 157, Previous Mentions 105, Combined Sentiment Score -0.4615003190788316
+2025-03-01 21:38:59,315 - Error fetching volume for VET/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:39:00,604 - Error fetching volume for VET/USD on kraken: kraken does not have market symbol VET/USD
+2025-03-01 21:39:12,798 - Error fetching volume for VET/USD on bitfinex: bitfinex does not have market symbol VET/USD
+2025-03-01 21:39:17,260 - Rank: 41, VeChain: Current Price: $0.03, Market Cap: $2256304886.55, Circulating Supply: 80985041177, Adjusted Annual Velocity: 0.03, Valuation Difference: 0.0, Valuation Difference %: 0.0%, Total 24h Volume: 8873582.74, Market Sentiment %: -0.25, Current Mentions 258, Previous Mentions 258, Combined Sentiment Score -0.29049771841473165
+2025-03-01 21:39:51,391 - Error fetching volume for TIA/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:40:07,705 - Error fetching volume for TIA/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:40:11,570 - Rank: 42, Celestia: Current Price: $4.11, Market Cap: $2241111001.46, Circulating Supply: 545684747.21, Adjusted Annual Velocity: 46.81, Valuation Difference: 42.7, Valuation Difference %: 1038.93%, Total 24h Volume: 50736778.83, Market Sentiment %: 0.38, Current Mentions 111, Previous Mentions 240, Combined Sentiment Score 0.3793392082700728
+2025-03-01 21:40:48,216 - Error fetching volume for S/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:40:49,429 - Error fetching volume for S/USD on kraken: kraken does not have market symbol S/USD
+2025-03-01 21:41:01,542 - Error fetching volume for S/USD on bitfinex: bitfinex does not have market symbol S/USD
+2025-03-01 21:41:05,153 - Rank: 43, Sonic (prev. FTM): Current Price: $0.74, Market Cap: $2118520733.66, Circulating Supply: 2880000000, Adjusted Annual Velocity: 6.85, Valuation Difference: 6.11, Valuation Difference %: 825.68%, Total 24h Volume: 100558780.63, Market Sentiment %: -0.46, Current Mentions 35, Previous Mentions 56, Combined Sentiment Score -0.4621363516090886
+2025-03-01 21:41:52,291 - Error fetching volume for FIL/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:42:08,514 - Error fetching volume for FIL/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:42:12,086 - Rank: 44, Filecoin: Current Price: $3.19, Market Cap: $2044663930.97, Circulating Supply: 641179439, Adjusted Annual Velocity: 11.35, Valuation Difference: 8.16, Valuation Difference %: 255.8%, Total 24h Volume: 25417063.67, Market Sentiment %: -0.22, Current Mentions 85, Previous Mentions 329, Combined Sentiment Score -0.2157761426964676
+2025-03-01 21:43:05,547 - Error fetching volume for FDUSD/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:43:07,072 - Error fetching volume for FDUSD/USD on kraken: kraken does not have market symbol FDUSD/USD
+2025-03-01 21:43:19,259 - Error fetching volume for FDUSD/USD on bitfinex: bitfinex does not have market symbol FDUSD/USD
+2025-03-01 21:43:23,060 - Error fetching volume for FDUSD/USD on huobi: huobi does not have market symbol FDUSD/USD
+2025-03-01 21:43:23,065 - Rank: 45, First Digital USD: Current Price: $1.0, Market Cap: $2037823705.21, Circulating Supply: 2041924819.93, Adjusted Annual Velocity: 61.84, Valuation Difference: 60.84, Valuation Difference %: 6084.0%, Total 24h Volume: 476064296.06, Market Sentiment %: -0.27, Current Mentions 218, Previous Mentions 298, Combined Sentiment Score -0.2733399708855044
+2025-03-01 21:43:56,131 - Error fetching volume for ALGO/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:44:12,450 - Error fetching volume for ALGO/USD on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:44:16,468 - Rank: 46, Algorand: Current Price: $0.24, Market Cap: $2029203518.78, Circulating Supply: 8462877698.83, Adjusted Annual Velocity: 0.49, Valuation Difference: 0.25, Valuation Difference %: 104.17%, Total 24h Volume: 15483556.47, Market Sentiment %: -0.27, Current Mentions 252, Previous Mentions 187, Combined Sentiment Score -0.2629288751872326
+2025-03-01 21:45:06,888 - Error fetching volume for KAS/USD on binance: binance does not have market symbol KAS/USD
+2025-03-01 21:45:06,888 - Error fetching volume for KAS/USD on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:45:21,157 - Error fetching volume for KAS/USD on bitfinex: bitfinex does not have market symbol KAS/USD
+2025-03-01 21:45:24,595 - Error fetching volume for KAS/USD on huobi: huobi does not have market symbol KAS/USD
+2025-03-01 21:45:24,600 - Rank: 47, Kaspa: Current Price: $0.08, Market Cap: $1997269862.02, Circulating Supply: 25787271328.3, Adjusted Annual Velocity: 0.01, Valuation Difference: -0.07, Valuation Difference %: -87.5%, Total 24h Volume: 995980.88, Market Sentiment %: -0.0, Current Mentions 217, Previous Mentions 21, Combined Sentiment Score 0.005018267794426004
+2025-03-01 21:46:02,047 - Error fetching volume for JUP/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:46:18,339 - Error fetching volume for JUP/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 21:46:21,566 - Rank: 48, Jupiter: Current Price: $0.74, Market Cap: $1960628996.53, Circulating Supply: 2637438888.88, Adjusted Annual Velocity: 4.83, Valuation Difference: 4.09, Valuation Difference %: 552.7%, Total 24h Volume: 24505160.97, Market Sentiment %: 0.42, Current Mentions 119, Previous Mentions 110, Combined Sentiment Score 0.42419684018685727
+2025-03-01 21:47:12,496 - Error fetching volume for RENDER/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:47:26,871 - Error fetching volume for RENDER/USD on bitfinex: bitfinex does not have market symbol RENDER/USD
+2025-03-01 21:47:30,334 - Rank: 49, Render: Current Price: $3.76, Market Cap: $1949147224.69, Circulating Supply: 517716590.06, Adjusted Annual Velocity: 13.24, Valuation Difference: 9.48, Valuation Difference %: 252.13%, Total 24h Volume: 12769844.96, Market Sentiment %: 0.47, Current Mentions 154, Previous Mentions 263, Combined Sentiment Score 0.4711689702021539
+2025-03-01 21:48:20,685 - Error fetching volume for CRO/USD on binance: binance does not have market symbol CRO/USD
+2025-03-01 21:48:20,686 - Error fetching volume for CRO/USD on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 21:48:34,986 - Error fetching volume for CRO/USD on bitfinex: bitfinex does not have market symbol CRO/USD
+2025-03-01 21:48:39,076 - Error fetching volume for CRO/USDT on huobi: huobi {"ts":1740862119069,"status":"error","err-code":"invalid-parameter","err-msg":"invalid symbol"}
+2025-03-01 21:48:39,084 - Rank: 50, Cronos: Current Price: $0.07, Market Cap: $1933796201.66, Circulating Supply: 26571560696, Adjusted Annual Velocity: 0.0, Valuation Difference: -0.07, Valuation Difference %: -100.0%, Total 24h Volume: 493.21, Market Sentiment %: 0, Current Mentions 177, Previous Mentions 252, Combined Sentiment Score 0.4024941856891703
+2025-03-01 21:51:11,068 - Analyzing sentiment for GateToken (GT)
+2025-03-01 21:51:38,746 - Analyzing sentiment for Arbitrum (ARB)
+2025-03-01 21:52:15,318 - Analyzing sentiment for Cosmos (ATOM)
+2025-03-01 21:52:46,813 - Analyzing sentiment for Optimism (OP)
+2025-03-01 21:53:26,357 - Analyzing sentiment for DeXe (DEXE)
+2025-03-01 21:54:05,042 - Analyzing sentiment for Artificial Superintelligence Alliance (FET)
+2025-03-01 21:54:25,251 - Analyzing sentiment for Maker (MKR)
+2025-03-01 21:54:57,363 - Analyzing sentiment for KuCoin Token (KCS)
+2025-03-01 21:55:32,281 - Analyzing sentiment for Story (IP)
+2025-03-01 21:56:09,985 - Analyzing sentiment for Injective (INJ)
+2025-03-01 21:56:39,284 - Analyzing sentiment for XDC Network (XDC)
+2025-03-01 21:57:02,993 - Analyzing sentiment for Ethena (ENA)
+2025-03-01 21:57:27,854 - Analyzing sentiment for Immutable (IMX)
+2025-03-01 21:57:56,628 - Analyzing sentiment for Stacks (STX)
+2025-03-01 21:58:33,280 - Analyzing sentiment for Worldcoin (WLD)
+2025-03-01 21:59:00,359 - Analyzing sentiment for Sei (SEI)
+2025-03-01 21:59:22,036 - Analyzing sentiment for Theta Network (THETA)
+2025-03-01 21:59:49,618 - Analyzing sentiment for Lido DAO (LDO)
+2025-03-01 22:00:19,272 - Analyzing sentiment for Quant (QNT)
+2025-03-01 22:00:47,739 - Analyzing sentiment for The Graph (GRT)
+2025-03-01 22:01:29,906 - Analyzing sentiment for Movement (MOVE)
+2025-03-01 22:02:13,132 - Analyzing sentiment for Bonk (BONK)
+2025-03-01 22:02:37,977 - Analyzing sentiment for Flare (FLR)
+2025-03-01 22:03:01,141 - Analyzing sentiment for Berachain (BERA)
+2025-03-01 22:03:22,052 - Analyzing sentiment for JasmyCoin (JASMY)
+2025-03-01 22:03:46,786 - Analyzing sentiment for EOS (EOS)
+2025-03-01 22:04:14,562 - Analyzing sentiment for Tezos (XTZ)
+2025-03-01 22:04:43,383 - Analyzing sentiment for The Sandbox (SAND)
+2025-03-01 22:05:23,370 - Analyzing sentiment for FLOKI (FLOKI)
+2025-03-01 22:05:52,184 - Analyzing sentiment for Ethereum Name Service (ENS)
+2025-03-01 22:06:26,810 - Analyzing sentiment for PayPal USD (PYUSD)
+2025-03-01 22:06:57,106 - Analyzing sentiment for Nexo (NEXO)
+2025-03-01 22:07:23,787 - Analyzing sentiment for Flow (FLOW)
+2025-03-01 22:07:59,178 - Analyzing sentiment for IOTA (IOTA)
+2025-03-01 22:08:26,717 - Analyzing sentiment for Pyth Network (PYTH)
+2025-03-01 22:08:48,288 - Analyzing sentiment for Gala (GALA)
+2025-03-01 22:09:12,139 - Analyzing sentiment for BitTorrent [New] (BTT)
+2025-03-01 22:09:36,370 - Analyzing sentiment for Jito (JTO)
+2025-03-01 22:09:56,407 - Analyzing sentiment for Kaia (KAIA)
+2025-03-01 22:10:15,326 - Analyzing sentiment for Tether Gold (XAUT)
+2025-03-01 22:10:45,957 - Analyzing sentiment for Bitcoin SV (BSV)
+2025-03-01 22:11:26,605 - Analyzing sentiment for Virtuals Protocol (VIRTUAL)
+2025-03-01 22:12:05,159 - Analyzing sentiment for Neo (NEO)
+2025-03-01 22:12:32,438 - Analyzing sentiment for Raydium (RAY)
+2025-03-01 22:12:59,361 - Analyzing sentiment for PAX Gold (PAXG)
+2025-03-01 22:13:22,548 - Analyzing sentiment for dogwifhat (WIF)
+2025-03-01 22:13:50,361 - Analyzing sentiment for MultiversX (EGLD)
+2025-03-01 22:14:15,168 - Analyzing sentiment for Grass (GRASS)
+2025-03-01 22:14:39,257 - Analyzing sentiment for Zcash (ZEC)
+2025-03-01 22:15:07,581 - Analyzing sentiment for Ronin (RON)
+2025-03-01 22:15:37,755 - Error fetching volume for GT/USD on binance: binance does not have market symbol GT/USD
+2025-03-01 22:15:37,755 - Error fetching volume for GT/USD on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:15:38,933 - Error fetching volume for GT/USD on kraken: kraken does not have market symbol GT/USD
+2025-03-01 22:15:51,040 - Error fetching volume for GT/USD on bitfinex: bitfinex does not have market symbol GT/USD
+2025-03-01 22:15:55,228 - Rank: 51, GateToken: Current Price: $20.98, Market Cap: $1861397263.49, Circulating Supply: 88734807.08, Adjusted Annual Velocity: 0.35, Valuation Difference: -20.63, Valuation Difference %: -98.33%, Total 24h Volume: 59776.3, Market Sentiment %: 0.4, Current Mentions 69, Previous Mentions 175, Combined Sentiment Score 0.3970872377353696
+2025-03-01 22:16:49,947 - Error fetching volume for ARB/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:17:06,203 - Error fetching volume for ARB/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 22:17:11,188 - Rank: 52, Arbitrum: Current Price: $0.41, Market Cap: $1830456925.79, Circulating Supply: 4419312625, Adjusted Annual Velocity: 1.12, Valuation Difference: 0.71, Valuation Difference %: 173.17%, Total 24h Volume: 16786555.72, Market Sentiment %: -0.19, Current Mentions 340, Previous Mentions 187, Combined Sentiment Score -0.19087611250762887
+2025-03-01 22:17:59,950 - Error fetching volume for ATOM/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:18:16,171 - Error fetching volume for ATOM/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 22:18:19,792 - Rank: 53, Cosmos: Current Price: $4.47, Market Cap: $1746277451.98, Circulating Supply: 390934204, Adjusted Annual Velocity: 11.0, Valuation Difference: 6.53, Valuation Difference %: 146.09%, Total 24h Volume: 13063225.47, Market Sentiment %: -0.1, Current Mentions 176, Previous Mentions 322, Combined Sentiment Score -0.09798888904242621
+2025-03-01 22:18:58,847 - Error fetching volume for OP/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:19:13,158 - Error fetching volume for OP/USD on bitfinex: bitfinex does not have market symbol OP/USD
+2025-03-01 22:19:16,332 - Rank: 54, Optimism: Current Price: $1.04, Market Cap: $1688702909.47, Circulating Supply: 1620705846, Adjusted Annual Velocity: 6.02, Valuation Difference: 4.98, Valuation Difference %: 478.85%, Total 24h Volume: 30140849.15, Market Sentiment %: -0.11, Current Mentions 446, Previous Mentions 110, Combined Sentiment Score -0.11313141131150847
+2025-03-01 22:19:55,205 - Error fetching volume for DEXE/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:19:56,439 - Error fetching volume for DEXE/USD on kraken: kraken does not have market symbol DEXE/USD
+2025-03-01 22:20:08,522 - Error fetching volume for DEXE/USD on bitfinex: bitfinex does not have market symbol DEXE/USD
+2025-03-01 22:20:11,946 - Rank: 55, DeXe: Current Price: $18.15, Market Cap: $1520089103.64, Circulating Supply: 83733347.5, Adjusted Annual Velocity: 11.17, Valuation Difference: -6.98, Valuation Difference %: -38.46%, Total 24h Volume: 2475365.01, Market Sentiment %: 0.04, Current Mentions 434, Previous Mentions 153, Combined Sentiment Score 0.03493880855973512
+2025-03-01 22:20:57,547 - Error fetching volume for FET/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:21:13,825 - Error fetching volume for FET/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 22:21:17,049 - Rank: 56, Artificial Superintelligence Alliance: Current Price: $0.64, Market Cap: $1519893885.74, Circulating Supply: 2389774485.36, Adjusted Annual Velocity: 1.55, Valuation Difference: 0.91, Valuation Difference %: 142.19%, Total 24h Volume: 14524892.2, Market Sentiment %: -0.3, Current Mentions 26, Previous Mentions 2, Combined Sentiment Score -0.30185508028161473
+2025-03-01 22:22:16,793 - Error fetching volume for MKR/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:22:33,131 - Error fetching volume for MKR/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 22:22:37,788 - Rank: 57, Maker: Current Price: $1670.83, Market Cap: $1424187884.94, Circulating Supply: 852385.64, Adjusted Annual Velocity: 22820.39, Valuation Difference: 21149.56, Valuation Difference %: 1265.81%, Total 24h Volume: 37730684.64, Market Sentiment %: 0.41, Current Mentions 256, Previous Mentions 233, Combined Sentiment Score 0.41244537132819414
+2025-03-01 22:23:41,917 - Error fetching volume for KCS/USD on binance: binance does not have market symbol KCS/USD
+2025-03-01 22:23:41,917 - Error fetching volume for KCS/USD on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:23:43,164 - Error fetching volume for KCS/USD on kraken: kraken does not have market symbol KCS/USD
+2025-03-01 22:23:55,286 - Error fetching volume for KCS/USD on bitfinex: bitfinex does not have market symbol KCS/USD
+2025-03-01 22:23:58,596 - Error fetching volume for KCS/USD on huobi: huobi does not have market symbol KCS/USD
+2025-03-01 22:23:58,601 - Rank: 58, KuCoin Token: Current Price: $11.5, Market Cap: $1410152290.78, Circulating Supply: 122606967.85, Adjusted Annual Velocity: 0.0, Valuation Difference: -11.5, Valuation Difference %: -100.0%, Total 24h Volume: 0.0, Market Sentiment %: 0, Current Mentions 230, Previous Mentions 274, Combined Sentiment Score -0.3196819011297084
+2025-03-01 22:24:49,525 - Error fetching volume for IP/USD on binance: binance does not have market symbol IP/USD
+2025-03-01 22:24:49,525 - Error fetching volume for IP/USD on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:24:50,761 - Error fetching volume for IP/USD on kraken: kraken does not have market symbol IP/USD
+2025-03-01 22:25:02,944 - Error fetching volume for IP/USD on bitfinex: bitfinex does not have market symbol IP/USD
+2025-03-01 22:25:06,772 - Error fetching volume for IP/USD on huobi: huobi does not have market symbol IP/USD
+2025-03-01 22:25:06,776 - Rank: 59, Story: Current Price: $5.17, Market Cap: $1291999786.58, Circulating Supply: 250000000, Adjusted Annual Velocity: 0.0, Valuation Difference: -5.17, Valuation Difference %: -100.0%, Total 24h Volume: 0.0, Market Sentiment %: 0, Current Mentions 398, Previous Mentions 156, Combined Sentiment Score 0.4293893237469929
+2025-03-01 22:25:50,284 - Error fetching volume for INJ/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:26:04,596 - Error fetching volume for INJ/USD on bitfinex: bitfinex does not have market symbol INJ/USD
+2025-03-01 22:26:08,262 - Rank: 60, Injective: Current Price: $12.9, Market Cap: $1276430176.89, Circulating Supply: 98970935.41, Adjusted Annual Velocity: 49.42, Valuation Difference: 36.52, Valuation Difference %: 283.1%, Total 24h Volume: 13535031.2, Market Sentiment %: -0.01, Current Mentions 147, Previous Mentions 240, Combined Sentiment Score -0.009997323883746606
+2025-03-01 22:26:56,317 - Error fetching volume for XDC/USD on binance: binance does not have market symbol XDC/USD
+2025-03-01 22:26:56,318 - Error fetching volume for XDC/USD on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:26:57,530 - Error fetching volume for XDC/USD on kraken: kraken does not have market symbol XDC/USD
+2025-03-01 22:27:11,665 - Error fetching volume for XDC/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 22:27:15,411 - Rank: 61, XDC Network: Current Price: $0.08, Market Cap: $1256876318.4, Circulating Supply: 15691996650.75, Adjusted Annual Velocity: 0.17, Valuation Difference: 0.09, Valuation Difference %: 112.5%, Total 24h Volume: 8053180.64, Market Sentiment %: -0.11, Current Mentions 38, Previous Mentions 139, Combined Sentiment Score -0.11934356504126076
+2025-03-01 22:28:02,394 - Error fetching volume for ENA/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:28:18,770 - Error fetching volume for ENA/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 22:28:22,372 - Rank: 62, Ethena: Current Price: $0.4, Market Cap: $1238806345.31, Circulating Supply: 3128125000, Adjusted Annual Velocity: 3.26, Valuation Difference: 2.86, Valuation Difference %: 715.0%, Total 24h Volume: 43947240.42, Market Sentiment %: -0.36, Current Mentions 144, Previous Mentions 13, Combined Sentiment Score -0.36503371937886014
+2025-03-01 22:29:13,807 - Error fetching volume for IMX/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:29:28,070 - Error fetching volume for IMX/USD on bitfinex: bitfinex does not have market symbol IMX/USD
+2025-03-01 22:29:32,414 - Rank: 63, Immutable: Current Price: $0.69, Market Cap: $1218020698.02, Circulating Supply: 1768317543.39, Adjusted Annual Velocity: 1.08, Valuation Difference: 0.39, Valuation Difference %: 56.52%, Total 24h Volume: 3826726.78, Market Sentiment %: 0.37, Current Mentions 131, Previous Mentions 312, Combined Sentiment Score 0.36290545893465526
+2025-03-01 22:30:28,101 - Error fetching volume for STX/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:30:42,336 - Error fetching volume for STX/USD on bitfinex: bitfinex does not have market symbol STX/USD
+2025-03-01 22:30:45,641 - Error fetching volume for STX/USD on huobi: huobi does not have market symbol STX/USD
+2025-03-01 22:30:45,646 - Rank: 64, Stacks: Current Price: $0.8, Market Cap: $1205310998.61, Circulating Supply: 1515063573.3, Adjusted Annual Velocity: 1.74, Valuation Difference: 0.94, Valuation Difference %: 117.5%, Total 24h Volume: 4650685.06, Market Sentiment %: 0.55, Current Mentions 321, Previous Mentions 183, Combined Sentiment Score 0.5521106009921916
+2025-03-01 22:31:31,619 - Error fetching volume for WLD/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:31:32,822 - Error fetching volume for WLD/USD on kraken: kraken does not have market symbol WLD/USD
+2025-03-01 22:31:44,974 - Error fetching volume for WLD/USD on bitfinex: bitfinex does not have market symbol WLD/USD
+2025-03-01 22:31:48,820 - Rank: 65, Worldcoin: Current Price: $1.09, Market Cap: $1159785811.69, Circulating Supply: 1068236050.37, Adjusted Annual Velocity: 8.15, Valuation Difference: 7.06, Valuation Difference %: 647.71%, Total 24h Volume: 33018606.76, Market Sentiment %: -0.28, Current Mentions 177, Previous Mentions 124, Combined Sentiment Score -0.2775717871606635
+2025-03-01 22:32:31,818 - Error fetching volume for SEI/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:32:48,186 - Error fetching volume for SEI/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 22:32:51,895 - Rank: 66, Sei: Current Price: $0.25, Market Cap: $1149106913.73, Circulating Supply: 4657499999, Adjusted Annual Velocity: 3.87, Valuation Difference: 3.62, Valuation Difference %: 1448.0%, Total 24h Volume: 33364964.25, Market Sentiment %: 0.48, Current Mentions 45, Previous Mentions 44, Combined Sentiment Score 0.4829318580382642
+2025-03-01 22:33:49,197 - Error fetching volume for THETA/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:33:50,451 - Error fetching volume for THETA/USD on kraken: kraken does not have market symbol THETA/USD
+2025-03-01 22:34:02,651 - Error fetching volume for THETA/USD on bitfinex: bitfinex does not have market symbol THETA/USD
+2025-03-01 22:34:06,750 - Rank: 67, Theta Network: Current Price: $1.14, Market Cap: $1136866438.1, Circulating Supply: 1000000000, Adjusted Annual Velocity: 1.37, Valuation Difference: 0.23, Valuation Difference %: 20.18%, Total 24h Volume: 4924811.02, Market Sentiment %: -0.24, Current Mentions 29, Previous Mentions 280, Combined Sentiment Score -0.23744416089319736
+2025-03-01 22:34:42,644 - Error fetching volume for LDO/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:34:58,978 - Error fetching volume for LDO/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 22:35:04,581 - Rank: 68, Lido DAO: Current Price: $1.26, Market Cap: $1127923521.42, Circulating Supply: 897602695.87, Adjusted Annual Velocity: 7.91, Valuation Difference: 6.65, Valuation Difference %: 527.78%, Total 24h Volume: 23187751.1, Market Sentiment %: -0.16, Current Mentions 187, Previous Mentions 208, Combined Sentiment Score -0.16075589021372697
+2025-03-01 22:35:40,148 - Error fetching volume for QNT/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:35:54,461 - Error fetching volume for QNT/USD on bitfinex: bitfinex does not have market symbol QNT/USD
+2025-03-01 22:35:58,740 - Error fetching volume for QNT/USD on huobi: huobi does not have market symbol QNT/USD
+2025-03-01 22:35:58,745 - Rank: 69, Quant: Current Price: $92.5, Market Cap: $1116751076.74, Circulating Supply: 12072738, Adjusted Annual Velocity: 80.63, Valuation Difference: -11.87, Valuation Difference %: -12.83%, Total 24h Volume: 2742896.92, Market Sentiment %: -0.03, Current Mentions 157, Previous Mentions 185, Combined Sentiment Score -0.027765124053857823
+2025-03-01 22:36:40,162 - Error fetching volume for GRT/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:36:56,438 - Error fetching volume for GRT/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 22:37:00,105 - Rank: 70, The Graph: Current Price: $0.12, Market Cap: $1116211947.77, Circulating Supply: 9548531509.17, Adjusted Annual Velocity: 0.33, Valuation Difference: 0.21, Valuation Difference %: 175.0%, Total 24h Volume: 6243790.74, Market Sentiment %: 0.38, Current Mentions 600, Previous Mentions 0, Combined Sentiment Score 0.37214957826251915
+2025-03-01 22:37:54,971 - Error fetching volume for MOVE/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:38:09,253 - Error fetching volume for MOVE/USD on bitfinex: bitfinex does not have market symbol MOVE/USD
+2025-03-01 22:38:12,921 - Rank: 71, Movement: Current Price: $0.44, Market Cap: $1045125899.1, Circulating Supply: 2400000000, Adjusted Annual Velocity: 7.04, Valuation Difference: 6.6, Valuation Difference %: 1500.0%, Total 24h Volume: 33918765.07, Market Sentiment %: 0.36, Current Mentions 600, Previous Mentions 0, Combined Sentiment Score 0.3639179993968597
+2025-03-01 22:39:07,807 - Error fetching volume for BONK/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:39:24,053 - Error fetching volume for BONK/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 22:39:27,783 - Rank: 72, Bonk: Current Price: $0.0, Market Cap: $1044217472.6, Circulating Supply: 77713536295586.45, Adjusted Annual Velocity: 0.0, Valuation Difference: 0.0, Valuation Difference %: 0%, Total 24h Volume: 25160758.27, Market Sentiment %: 0, Current Mentions 127, Previous Mentions 163, Combined Sentiment Score -0.18883717170714853
+2025-03-01 22:40:28,269 - Error fetching volume for FLR/USD on binance: binance does not have market symbol FLR/USD
+2025-03-01 22:40:28,269 - Error fetching volume for FLR/USD on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:40:42,515 - Error fetching volume for FLR/USD on bitfinex: bitfinex does not have market symbol FLR/USD
+2025-03-01 22:40:46,732 - Rank: 73, Flare: Current Price: $0.02, Market Cap: $989729670.56, Circulating Supply: 59144171061.54, Adjusted Annual Velocity: 0.0, Valuation Difference: -0.02, Valuation Difference %: -100.0%, Total 24h Volume: 259795.26, Market Sentiment %: 0, Current Mentions 36, Previous Mentions 189, Combined Sentiment Score 0.36899467014292986
+2025-03-01 22:41:27,285 - Error fetching volume for BERA/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:41:41,596 - Error fetching volume for BERA/USD on bitfinex: bitfinex does not have market symbol BERA/USD
+2025-03-01 22:41:45,174 - Rank: 74, Berachain: Current Price: $8.2, Market Cap: $880983417.69, Circulating Supply: 107480000, Adjusted Annual Velocity: 266.69, Valuation Difference: 258.49, Valuation Difference %: 3152.32%, Total 24h Volume: 114054506.92, Market Sentiment %: -0.31, Current Mentions 38, Previous Mentions 20, Combined Sentiment Score -0.3114611551818008
+2025-03-01 22:42:18,825 - Error fetching volume for JASMY/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:42:35,172 - Error fetching volume for JASMY/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 22:42:39,254 - Rank: 75, JasmyCoin: Current Price: $0.02, Market Cap: $872693808.81, Circulating Supply: 49444999677.17, Adjusted Annual Velocity: 0.02, Valuation Difference: 0.0, Valuation Difference %: 0.0%, Total 24h Volume: 4684287.12, Market Sentiment %: -0.33, Current Mentions 158, Previous Mentions 71, Combined Sentiment Score -0.3475234593770377
+2025-03-01 22:43:35,294 - Error fetching volume for EOS/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:43:51,574 - Error fetching volume for EOS/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 22:43:55,673 - Rank: 76, EOS: Current Price: $0.55, Market Cap: $856757258.88, Circulating Supply: 1549714317.56, Adjusted Annual Velocity: 2.21, Valuation Difference: 1.66, Valuation Difference %: 301.82%, Total 24h Volume: 6837966.12, Market Sentiment %: 0.37, Current Mentions 89, Previous Mentions 437, Combined Sentiment Score 0.3736608226201668
+2025-03-01 22:44:48,182 - Error fetching volume for XTZ/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:45:04,414 - Error fetching volume for XTZ/USD on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 22:45:07,630 - Rank: 77, Tezos: Current Price: $0.75, Market Cap: $773768435.07, Circulating Supply: 1032458275.1, Adjusted Annual Velocity: 0.81, Valuation Difference: 0.06, Valuation Difference %: 8.0%, Total 24h Volume: 2920649.77, Market Sentiment %: -0.21, Current Mentions 94, Previous Mentions 340, Combined Sentiment Score -0.2145346024606733
+2025-03-01 22:45:48,392 - Error fetching volume for SAND/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:46:05,931 - Error fetching volume for SAND/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 22:46:10,542 - Rank: 78, The Sandbox: Current Price: $0.31, Market Cap: $769752912.64, Circulating Supply: 2464357126.22, Adjusted Annual Velocity: 1.77, Valuation Difference: 1.46, Valuation Difference %: 470.97%, Total 24h Volume: 8497246.08, Market Sentiment %: 0.4, Current Mentions 600, Previous Mentions 0, Combined Sentiment Score 0.40208989704975884
+2025-03-01 22:47:00,873 - Error fetching volume for FLOKI/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:47:17,241 - Error fetching volume for FLOKI/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 22:47:21,162 - Rank: 79, FLOKI: Current Price: $0.0, Market Cap: $762469203.15, Circulating Supply: 9620436821912.67, Adjusted Annual Velocity: 0.0, Valuation Difference: 0.0, Valuation Difference %: 0%, Total 24h Volume: 25955774.34, Market Sentiment %: 0, Current Mentions 141, Previous Mentions 353, Combined Sentiment Score -0.2608224421188126
+2025-03-01 22:48:13,395 - Error fetching volume for ENS/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:48:27,751 - Error fetching volume for ENS/USD on bitfinex: bitfinex does not have market symbol ENS/USD
+2025-03-01 22:48:31,837 - Rank: 80, Ethereum Name Service: Current Price: $21.18, Market Cap: $753593984.38, Circulating Supply: 35585259.48, Adjusted Annual Velocity: 139.45, Valuation Difference: 118.27, Valuation Difference %: 558.4%, Total 24h Volume: 20132965.9, Market Sentiment %: -0.32, Current Mentions 197, Previous Mentions 291, Combined Sentiment Score -0.3247004938041528
+2025-03-01 22:49:25,030 - Error fetching volume for PYUSD/USD on binance: binance does not have market symbol PYUSD/USD
+2025-03-01 22:49:25,031 - Error fetching volume for PYUSD/USD on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:49:39,318 - Error fetching volume for PYUSD/USD on bitfinex: bitfinex does not have market symbol PYUSD/USD
+2025-03-01 22:49:42,953 - Rank: 81, PayPal USD: Current Price: $1.0, Market Cap: $753407174.44, Circulating Supply: 753608083.7, Adjusted Annual Velocity: 0.25, Valuation Difference: -0.75, Valuation Difference %: -75.0%, Total 24h Volume: 357363.47, Market Sentiment %: 0.47, Current Mentions 152, Previous Mentions 326, Combined Sentiment Score 0.4438672866860095
+2025-03-01 22:50:34,386 - Error fetching volume for NEXO/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:50:35,620 - Error fetching volume for NEXO/USD on kraken: kraken does not have market symbol NEXO/USD
+2025-03-01 22:50:49,750 - Error fetching volume for NEXO/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 22:50:54,085 - Rank: 82, Nexo: Current Price: $1.14, Market Cap: $739697103.66, Circulating Supply: 646145839.57, Adjusted Annual Velocity: 1.66, Valuation Difference: 0.52, Valuation Difference %: 45.61%, Total 24h Volume: 2191080.67, Market Sentiment %: 0.34, Current Mentions 73, Previous Mentions 364, Combined Sentiment Score 0.33529099469729967
+2025-03-01 22:51:30,814 - Error fetching volume for FLOW/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:51:45,186 - Error fetching volume for FLOW/USD on bitfinex: bitfinex does not have market symbol FLOW/USD
+2025-03-01 22:51:49,388 - Rank: 83, Flow: Current Price: $0.47, Market Cap: $734541809.84, Circulating Supply: 1566649989.82, Adjusted Annual Velocity: 1.66, Valuation Difference: 1.19, Valuation Difference %: 253.19%, Total 24h Volume: 4639738.57, Market Sentiment %: 0.54, Current Mentions 295, Previous Mentions 187, Combined Sentiment Score 0.5370186555878371
+2025-03-01 22:52:41,302 - Error fetching volume for IOTA/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:52:42,601 - Error fetching volume for IOTA/USD on kraken: kraken does not have market symbol IOTA/USD
+2025-03-01 22:52:56,705 - Error fetching volume for IOTA/USD on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 22:53:02,491 - Rank: 84, IOTA: Current Price: $0.2, Market Cap: $732237011.51, Circulating Supply: 3650535129, Adjusted Annual Velocity: 0.49, Valuation Difference: 0.29, Valuation Difference %: 145.0%, Total 24h Volume: 4483400.22, Market Sentiment %: 0.09, Current Mentions 70, Previous Mentions 434, Combined Sentiment Score 0.07966907247170749
+2025-03-01 22:53:44,246 - Error fetching volume for PYTH/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:53:58,549 - Error fetching volume for PYTH/USD on bitfinex: bitfinex does not have market symbol PYTH/USD
+2025-03-01 22:54:02,559 - Rank: 85, Pyth Network: Current Price: $0.2, Market Cap: $730488672.38, Circulating Supply: 3624987952.52, Adjusted Annual Velocity: 0.61, Valuation Difference: 0.41, Valuation Difference %: 205.0%, Total 24h Volume: 7902492.04, Market Sentiment %: -0.24, Current Mentions 40, Previous Mentions 46, Combined Sentiment Score -0.2350677301667653
+2025-03-01 22:55:00,297 - Error fetching volume for GALA/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:55:16,509 - Error fetching volume for GALA/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 22:55:19,743 - Rank: 86, Gala: Current Price: $0.02, Market Cap: $727078678.11, Circulating Supply: 37819697847.47, Adjusted Annual Velocity: 0.12, Valuation Difference: 0.1, Valuation Difference %: 500.0%, Total 24h Volume: 19534459.97, Market Sentiment %: -0.37, Current Mentions 47, Previous Mentions 186, Combined Sentiment Score -0.3644497883524127
+2025-03-01 22:56:01,807 - Error fetching volume for BTT/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:56:18,049 - Error fetching volume for BTT/USD on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 22:56:21,402 - Rank: 87, BitTorrent [New]: Current Price: $0.0, Market Cap: $716703700.71, Circulating Supply: 986061142857000, Adjusted Annual Velocity: 0.0, Valuation Difference: 0.0, Valuation Difference %: 0%, Total 24h Volume: 2469391.28, Market Sentiment %: 0, Current Mentions 10, Previous Mentions 251, Combined Sentiment Score -0.14584970587687612
+2025-03-01 22:57:17,782 - Error fetching volume for JTO/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:57:31,994 - Error fetching volume for JTO/USD on bitfinex: bitfinex does not have market symbol JTO/USD
+2025-03-01 22:57:35,566 - Rank: 88, Jito: Current Price: $2.39, Market Cap: $716354196.29, Circulating Supply: 299317023.4, Adjusted Annual Velocity: 16.37, Valuation Difference: 13.98, Valuation Difference %: 584.94%, Total 24h Volume: 11280534.18, Market Sentiment %: 0.19, Current Mentions 14, Previous Mentions 25, Combined Sentiment Score 0.1893619027266155
+2025-03-01 22:58:25,032 - Error fetching volume for KAIA/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:58:26,411 - Error fetching volume for KAIA/USD on kraken: kraken does not have market symbol KAIA/USD
+2025-03-01 22:58:38,551 - Error fetching volume for KAIA/USD on bitfinex: bitfinex does not have market symbol KAIA/USD
+2025-03-01 22:58:42,831 - Rank: 89, Kaia: Current Price: $0.12, Market Cap: $709316498.07, Circulating Supply: 5957163627.13, Adjusted Annual Velocity: 0.23, Valuation Difference: 0.11, Valuation Difference %: 91.67%, Total 24h Volume: 3189737.52, Market Sentiment %: 0.15, Current Mentions 6, Previous Mentions 0, Combined Sentiment Score 0.13887749132974203
+2025-03-01 22:59:16,703 - Error fetching volume for XAUT/USD on binance: binance does not have market symbol XAUT/USD
+2025-03-01 22:59:16,703 - Error fetching volume for XAUT/USD on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 22:59:17,864 - Error fetching volume for XAUT/USD on kraken: kraken does not have market symbol XAUT/USD
+2025-03-01 22:59:31,993 - Error fetching volume for XAUT/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 22:59:36,582 - Rank: 90, Tether Gold: Current Price: $2856.14, Market Cap: $704107484.62, Circulating Supply: 246524, Adjusted Annual Velocity: 599.4, Valuation Difference: -2256.74, Valuation Difference %: -79.01%, Total 24h Volume: 386529.37, Market Sentiment %: 0.05, Current Mentions 294, Previous Mentions 199, Combined Sentiment Score 0.047372964372616524
+2025-03-01 23:00:31,199 - Error fetching volume for BSV/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 23:00:32,491 - Error fetching volume for BSV/USD on kraken: kraken does not have market symbol BSV/USD
+2025-03-01 23:00:44,586 - Error fetching volume for BSV/USD on bitfinex: bitfinex does not have market symbol BSV/USD
+2025-03-01 23:00:48,172 - Rank: 91, Bitcoin SV: Current Price: $34.47, Market Cap: $683641165.39, Circulating Supply: 19831837.5, Adjusted Annual Velocity: 44.08, Valuation Difference: 9.61, Valuation Difference %: 27.88%, Total 24h Volume: 4033041.07, Market Sentiment %: -0.41, Current Mentions 496, Previous Mentions 104, Combined Sentiment Score -0.40615503006684067
+2025-03-01 23:01:33,989 - Error fetching volume for VIRTUAL/USD on binance: binance does not have market symbol VIRTUAL/USD
+2025-03-01 23:01:33,990 - Error fetching volume for VIRTUAL/USD on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 23:01:48,233 - Error fetching volume for VIRTUAL/USD on bitfinex: bitfinex does not have market symbol VIRTUAL/USD
+2025-03-01 23:01:52,995 - Rank: 92, Virtuals Protocol: Current Price: $1.04, Market Cap: $676094042.47, Circulating Supply: 648594347.35, Adjusted Annual Velocity: 0.21, Valuation Difference: -0.83, Valuation Difference %: -79.81%, Total 24h Volume: 574155.71, Market Sentiment %: -0.34, Current Mentions 359, Previous Mentions 173, Combined Sentiment Score -0.3568594166594931
+2025-03-01 23:02:36,658 - Error fetching volume for NEO/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 23:02:37,882 - Error fetching volume for NEO/USD on kraken: kraken does not have market symbol NEO/USD
+2025-03-01 23:02:52,006 - Error fetching volume for NEO/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 23:02:56,088 - Rank: 93, Neo: Current Price: $9.45, Market Cap: $666656142.26, Circulating Supply: 70538831, Adjusted Annual Velocity: 23.52, Valuation Difference: 14.07, Valuation Difference %: 148.89%, Total 24h Volume: 2917569.69, Market Sentiment %: 0.56, Current Mentions 47, Previous Mentions 457, Combined Sentiment Score 0.5572852879466351
+2025-03-01 23:03:58,675 - Error fetching volume for RAY/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 23:04:12,951 - Error fetching volume for RAY/USD on bitfinex: bitfinex does not have market symbol RAY/USD
+2025-03-01 23:04:16,412 - Rank: 94, Raydium: Current Price: $2.26, Market Cap: $656657530.39, Circulating Supply: 290847965.96, Adjusted Annual Velocity: 25.77, Valuation Difference: 23.51, Valuation Difference %: 1040.27%, Total 24h Volume: 22645312.15, Market Sentiment %: -0.09, Current Mentions 83, Previous Mentions 254, Combined Sentiment Score -0.09331813480957246
+2025-03-01 23:05:15,133 - Error fetching volume for PAXG/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 23:05:29,422 - Error fetching volume for PAXG/USD on bitfinex: bitfinex does not have market symbol PAXG/USD
+2025-03-01 23:05:33,376 - Error fetching volume for PAXG/USD on huobi: huobi does not have market symbol PAXG/USD
+2025-03-01 23:05:33,381 - Rank: 95, PAX Gold: Current Price: $2865.38, Market Cap: $599322559.48, Circulating Supply: 209159.66, Adjusted Annual Velocity: 4734.29, Valuation Difference: 1868.91, Valuation Difference %: 65.22%, Total 24h Volume: 3210482.59, Market Sentiment %: -0.15, Current Mentions 18, Previous Mentions 212, Combined Sentiment Score -0.15497369359149382
+2025-03-01 23:06:36,244 - Error fetching volume for WIF/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 23:06:52,533 - Error fetching volume for WIF/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 23:06:56,812 - Rank: 96, dogwifhat: Current Price: $0.6, Market Cap: $598375987.59, Circulating Supply: 998841166.87, Adjusted Annual Velocity: 20.26, Valuation Difference: 19.66, Valuation Difference %: 3276.67%, Total 24h Volume: 85391048.68, Market Sentiment %: -0.35, Current Mentions 201, Previous Mentions 22, Combined Sentiment Score -0.35066229651101083
+2025-03-01 23:07:45,726 - Error fetching volume for EGLD/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 23:08:01,936 - Error fetching volume for EGLD/USDT on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 23:08:06,554 - Rank: 97, MultiversX: Current Price: $21.43, Market Cap: $598354960.2, Circulating Supply: 27926427.41, Adjusted Annual Velocity: 41.68, Valuation Difference: 20.25, Valuation Difference %: 94.49%, Total 24h Volume: 4099342.89, Market Sentiment %: -0.22, Current Mentions 21, Previous Mentions 175, Combined Sentiment Score -0.2221234288426093
+2025-03-01 23:08:50,856 - Error fetching volume for GRASS/USD on binance: binance does not have market symbol GRASS/USD
+2025-03-01 23:08:50,856 - Error fetching volume for GRASS/USD on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 23:09:05,093 - Error fetching volume for GRASS/USD on bitfinex: bitfinex does not have market symbol GRASS/USD
+2025-03-01 23:09:08,612 - Rank: 98, Grass: Current Price: $2.44, Market Cap: $595559860.43, Circulating Supply: 243905091, Adjusted Annual Velocity: 1.26, Valuation Difference: -1.18, Valuation Difference %: -48.36%, Total 24h Volume: 675030.51, Market Sentiment %: 0.25, Current Mentions 73, Previous Mentions 149, Combined Sentiment Score 0.24258957458485472
+2025-03-01 23:09:48,913 - Error fetching volume for ZEC/USDT on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 23:10:05,150 - Error fetching volume for ZEC/USD on bitfinex: unsupported operand type(s) for +=: 'float' and 'NoneType'
+2025-03-01 23:10:08,822 - Rank: 99, Zcash: Current Price: $37.42, Market Cap: $594480407.59, Circulating Supply: 15886821, Adjusted Annual Velocity: 86.6, Valuation Difference: 49.18, Valuation Difference %: 131.43%, Total 24h Volume: 3786270.73, Market Sentiment %: -0.0, Current Mentions 36, Previous Mentions 449, Combined Sentiment Score -0.004459071332517668
+2025-03-01 23:11:10,231 - Error fetching volume for RON/USD on binance: binance does not have market symbol RON/USD
+2025-03-01 23:11:10,231 - Error fetching volume for RON/USD on coinbasepro: module 'ccxt' has no attribute 'coinbasepro'
+2025-03-01 23:11:11,486 - Error fetching volume for RON/USD on kraken: kraken does not have market symbol RON/USD
+2025-03-01 23:11:23,619 - Error fetching volume for RON/USD on bitfinex: bitfinex does not have market symbol RON/USD
+2025-03-01 23:11:26,654 - Error fetching volume for RON/USD on huobi: huobi does not have market symbol RON/USD
+2025-03-01 23:11:26,659 - Rank: 100, Ronin: Current Price: $0.95, Market Cap: $589054369.57, Circulating Supply: 619389698.96, Adjusted Annual Velocity: 0.0, Valuation Difference: -0.95, Valuation Difference %: -100.0%, Total 24h Volume: 0.0, Market Sentiment %: 0, Current Mentions 81, Previous Mentions 222, Combined Sentiment Score -0.20160067322689948
+2025-03-01 23:12:58,938 - Analyzing sentiment for BTC (BTC)
+2025-03-01 23:13:30,721 - Too many requests. Retrying in 95.3136601091659 seconds... (4 retries left)
