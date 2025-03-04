@@ -41,6 +41,7 @@ Use apikey.py file and add:
 
 cmc_api = "YOUR_COINMARKETCAP_API_KEY"
 openai_key = "YOUR_OPENAI_API_KEY"
+reddit = praw.Reddit(client_id=client_id, client_secret=client_secret, user_agent=user_agent)
 
 <b>Usage</b>
 
