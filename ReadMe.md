@@ -1,10 +1,11 @@
-Crypto Valuation & Sentiment Analysis Dash App
+<b>Crypto Valuation & 
+Sentiment Analysis Dash App</b>
 
-Overview
+<b>Overview</b>
 
 The Crypto Valuation & Sentiment Analysis Dash App is a web-based application built using Dash, Flask, and CCXT to analyze cryptocurrencies based on market data, sentiment analysis, and velocity calculations. The app integrates data from CoinMarketCap, CCXT-supported exchanges, OpenAI GPT-4, and Reddit/Google Trends to provide users with real-time insights into cryptocurrency valuation and sentiment trends.
 
-Features
+<b>Features</b>
 
 - Real-time Crypto Data Retrieval: Fetches price, market cap, circulating supply, and trading volume data from CoinMarketCap.
 
@@ -20,9 +21,9 @@ Features
 
 - Interactive UI: Built with Dash for an intuitive user experience.
 
-Installation
+<b>Installation</b>
 
-Prerequisites
+<u>Prerequisites</u>
 
 - Ensure you have Python 3.8+ installed. Install dependencies using:
 
@@ -41,7 +42,7 @@ Use apikey.py file and add:
 cmc_api = "YOUR_COINMARKETCAP_API_KEY"
 openai_key = "YOUR_OPENAI_API_KEY"
 
-Usage
+<b>Usage</b>
 
 1) Run the app using the command:
 
@@ -51,15 +52,15 @@ python app.py
 
 3) Click 'Analyze' to generate real-time metrics, sentiment analysis, and AI-powered insights.
 
--4)View the AI-generated market analysis and image.
+4) View the AI-generated market analysis and image.
 
-API Rate Limits & Handling
+<b>API Rate Limits & Handling</b>
 
 The app includes API rate-limiting protection using exponential backoff and response caching to reduce unnecessary API calls.
 
 OpenAI API calls are cached for 5 minutes to prevent excessive requests.
 
-Future Enhancements
+<b>Future Enhancements</b>
 
 Implement historical analysis with trend forecasting.
 
@@ -67,10 +68,10 @@ Add more data sources for sentiment analysis (e.g., Twitter, on-chain analytics)
 
 Improve UI design for better visualization of market trends.
 
-Contributing
+<b>Contributing</b>
 
 Feel free to fork this repository and contribute improvements via pull requests.
 
-License
+<b>License</b>
 
 This project is licensed under the MIT License.
