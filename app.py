@@ -49,7 +49,7 @@ def fetch_crypto_data(symbol):
 def analyze_crypto(symbol):
     crypto_data = fetch_crypto_data(symbol)
     if not crypto_data:
-        return html.Div("❌ Error: Invalid Crypto Symbol or Data Unavailable.", style={"color": "red", "font-weight": "bold"})
+        return html.Div("Error: Invalid Crypto Symbol or Data Unavailable.", style={"color": "red", "font-weight": "bold"})
 
     crypto_id = crypto_data['name']
     crypto_symbol = crypto_data['symbol'].upper()
@@ -107,9 +107,9 @@ def analyze_crypto(symbol):
         analysis = f"⚠️ Error calling OpenAI: {e}"
 
 
-    # Generate DALL-E Image from AI Analysis
+    # Generate DALL-E Image
     try:
-        image_prompt = f"Create an impactful related image, pixar like style, of a cartoon character. The image has to be impactful and humoristic, with a blénd of cartoonish and pop art like influence. The theme of the image are the events or annoucements related to {crypto_id} found on https://www.coindesk.com/," 
+        image_prompt = f"Create an impactful related image, pixar like style. The image has to be impactful and humoristic, with a blénd of cartoonish and pop art like influence. The theme of the image are the events or annoucements related to {crypto_id} found on https://www.coindesk.com/," 
         f"Make sure the logo of {crypto_id} is included on the image"
         "Characters must be European origin"
         
@@ -117,17 +117,16 @@ def analyze_crypto(symbol):
             model="dall-e-3",
             prompt=image_prompt,
             n=1,
-            size="1024x1024"  # Supported sizes: "1024x1024", "1792x1024", "1024x1792"
+            size="1024x1024"  
         )
 
         # Extracting Image URL
         image_url = dalle_response.data[0].url if dalle_response.data else None
     
-        # Debugging print statement
-        print(f"DALL-E Image URL: {image_url}")  # Check if the API is returning a valid URL
+        print(f"DALL-E Image URL: {image_url}")  
 
     except Exception as e:
-        print(f"⚠️ DALL-E API Error: {e}")  # Log the error if image is not generated
+        print(f"⚠️ DALL-E API Error: {e}")  
         image_url = None
 
     # Metrics Display
@@ -153,12 +152,12 @@ def analyze_crypto(symbol):
     ]), image_url
 
 
-# 📌 **Dash App Layout**
+# Dash App Layout
 app.layout = html.Div(
     style={
-        "background-color": "black",  # Sets background color to black
-        "color": "white",  # Sets text color to white
-        "min-height": "100vh",  # Ensures full-screen background
+        "background-color": "black",  
+        "color": "white",  
+        "min-height": "100vh",  
         "padding": "20px",
         "font-family": "Arial, sans-serif",
         "text-align": "center"
@@ -167,8 +166,6 @@ app.layout = html.Div(
     children=[
     html.H1("Crypto Valuation & Sentiment Analysis", style={"textAlign": "center", "color": "yellow", "font-family": "monospace"}),
 
-
-    # Placeholder for Image Above Input Cell
     html.Div(
         children=[
             html.Img(
@@ -183,14 +180,13 @@ app.layout = html.Div(
         ],
         style={
             "margin-bottom": "20px",
-            "display": "flex",  # Enables Flexbox
-            "justify-content": "center",  # Centers image horizontally
-            "align-items": "center",  # Ensures proper vertical alignment
+            "display": "flex", 
+            "justify-content": "center",  
+            "align-items": "center", 
             "text-align": "center"
         }
     ),
 
-        # Narrow Input Field (on separate line)
         html.Div(
             dcc.Input(
                 id='crypto-symbol',
@@ -208,7 +204,6 @@ app.layout = html.Div(
             style={"margin-bottom": "10px"}
         ),
 
-        # Smaller "Analyze" Button (on separate line)
         html.Div(
             html.Button(
                 'Analyze', 
@@ -219,13 +214,12 @@ app.layout = html.Div(
                     "background-color": "red", "color": "white",
                     "border": "none", "border-radius": "5px",
                     "font-size": "16px", "font-weight": "bold",
-                    "display": "block", "margin": "auto"  # Centers the button
+                    "display": "block", "margin": "auto" 
                 }
             ),
             style={"margin-bottom": "20px"}
         ),
 
-        # Analysis Output
         html.Div(
             id='analysis-output',
             style={"margin-top": "20px", "text-align": "left", "white-space": "pre-wrap", "padding-left": "500px", "padding-right":"500px", "padding-top":"20px"}
@@ -233,7 +227,7 @@ app.layout = html.Div(
     ]
 )
 
-# 📌 **Callbacks (Fix for Multiple Queries)**
+# Callbacks
 @app.callback(
     [Output('analysis-output', 'children'),
      Output('crypto-image', 'src'),
@@ -246,12 +240,11 @@ def update_output(n_clicks, symbol):
     if n_clicks > 0 and symbol and symbol.strip():
         analysis_output, image_url = analyze_crypto(symbol.strip().upper())
 
-        # Show image if generated, otherwise keep it hidden
         image_style = {"width": "512px", "height": "512px", "display": "block"} if image_url else {"display": "none"}
 
         return analysis_output, image_url, image_style
     return "", "", {"display": "none"}
 
-# 📌 **Run Server**
+# Run Server
 if __name__ == '__main__':
     app.run_server(debug=True)
