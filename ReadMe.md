@@ -2,6 +2,8 @@
 
 # Crypto Valuation & Sentiment Analysis Dash App
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4c00dbda71aa4eeeab5b22bb36124c0b)](https://app.codacy.com/gh/jpegaitaz/valuation_crypto?utm_source=github.com&utm_medium=referral&utm_content=jpegaitaz/valuation_crypto&utm_campaign=Badge_Grade)
+
 ## Overview
 The **Crypto Valuation & Sentiment Analysis Dash App** is a web-based application built using **Dash, Flask, and CCXT** to analyze cryptocurrencies based on market data, sentiment analysis, and velocity calculations. The app integrates data from **CoinMarketCap, CCXT-supported exchanges, OpenAI GPT-4, and Reddit/Google Trends** to provide users with real-time insights into cryptocurrency valuation and sentiment trends.
 
