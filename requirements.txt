@@ -1,0 +1,11 @@
+pytest
+pytest-cov
+coveralls
+dash
+ccxt
+requests
+logging
+openai
+praw
+textblob
+pytrends
