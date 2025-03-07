@@ -1,0 +1,23 @@
+# Ignore sensitive files
+apikey.py
+.env
+
+# Ignore log files
+log/
+*.log
+
+# Ignore results (generated data)
+results/
+*.csv
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore pytest cache
+.pytest_cache/
+.coverage
+
+# Ignore system files (Mac & Windows)
+.DS_Store
+Thumbs.db

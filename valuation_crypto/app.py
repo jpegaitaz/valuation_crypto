@@ -6,8 +6,8 @@ import logging
 import time
 import random
 from openai import OpenAI
-import market_sentiment_reddit_gtrend
-from apikey import cmc_api, openai_key
+import valuation_crypto.market_sentiment_reddit_gtrend as market_sentiment_reddit_gtrend
+from valuation_crypto.apikey import cmc_api, openai_key
 
 # Initialize OpenAI client
 client = OpenAI(api_key=openai_key)

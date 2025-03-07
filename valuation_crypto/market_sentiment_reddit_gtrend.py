@@ -1,7 +1,7 @@
 import time
 import praw
 from textblob import TextBlob
-from apikey import client_id, client_secret, user_agent
+from valuation_crypto.apikey import client_id, client_secret, user_agent
 from pytrends.request import TrendReq
 from pytrends.exceptions import TooManyRequestsError
 import logging
