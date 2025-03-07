@@ -9,6 +9,7 @@
 # the `language` matrix defined below to confirm you have the correct set of
 # supported CodeQL languages.
 #
+
 name: "CodeQL Advanced"
 
 on:
@@ -96,3 +97,8 @@ jobs:
       uses: github/codeql-action/analyze@v3
       with:
         category: "/language:${{matrix.language}}"
+
+    - name: Coveralls GitHub Action
+      uses: coverallsapp/github-action@v2.3.6
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
