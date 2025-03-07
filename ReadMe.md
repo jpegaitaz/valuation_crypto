@@ -1,3 +1,5 @@
+![Build Status](https://github.com/jpegaitaz/valuation_crypto/actions/workflows/codeql.yml/badge.svg)
+
 # Crypto Valuation & Sentiment Analysis Dash App
 
 ## Overview
