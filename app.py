@@ -7,7 +7,7 @@ import time
 import random
 from openai import OpenAI
 import market_sentiment_reddit_gtrend
-from apikey import cmc_api, openai_key
+from apikey2 import cmc_api, openai_key
 
 # Initialize OpenAI client
 client = OpenAI(api_key=openai_key)
