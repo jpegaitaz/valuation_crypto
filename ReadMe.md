@@ -1,4 +1,4 @@
-![Build Status](https://github.com/jpegaitaz/valuation_crypto/actions/workflows/codeql.yml/badge.svg)
+![Build Status](https://github.com/jpegaitaz/valuation_crypto/actions/workflows/codeql.yml/badge.svg)[![Codacy Badge](https://app.codacy.com/project/badge/Grade/31d4d5d3746046599dd47dc8e0a66dff)](https://app.codacy.com/gh/jpegaitaz/valuation_crypto/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 # Crypto Valuation & Sentiment Analysis Dash App
 
