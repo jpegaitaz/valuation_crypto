@@ -9,3 +9,4 @@ openai
 praw
 textblob
 pytrends
+coverage<7.0.0
