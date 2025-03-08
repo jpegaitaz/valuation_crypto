@@ -1,7 +1,3 @@
-# Ignore sensitive files
-apikey.py
-.env
-
 # Ignore log files
 log/
 *.log
