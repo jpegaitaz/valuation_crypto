@@ -1,7 +1,18 @@
-![Build Status](https://github.com/jpegaitaz/valuation_crypto/actions/workflows/codeql.yml/badge.svg)[![Codacy Badge](https://app.codacy.com/project/badge/Grade/31d4d5d3746046599dd47dc8e0a66dff)](https://app.codacy.com/gh/jpegaitaz/valuation_crypto/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)[![Coverage Status](https://coveralls.io/repos/github/jpegaitaz/valuation_crypto/badge.svg?branch=main)](https://coveralls.io/github/your_username/your_repo?branch=main)
-
+![Build Status](https://github.com/jpegaitaz/valuation_crypto/actions/workflows/codeql.yml/badge.svg)[![Codacy Badge](https://app.codacy.com/project/badge/Grade/31d4d5d3746046599dd47dc8e0a66dff)](https://app.codacy.com/gh/jpegaitaz/valuation_crypto/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)[![Coverage Status](https://coveralls.io/repos/github/jpegaitaz/valuation_crypto/badge.svg?branch=main)](https://coveralls.io/github/jpegaitaz/valuation_crypto?branch=main)
 
 # Crypto Valuation & Sentiment Analysis Dash App
+
+## Index
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+  - [Prerequisites](#prerequisites)
+  - [Setting Up API Keys](#setting-up-api-keys)
+- [Usage](#usage)
+- [API Rate Limits & Handling](#api-rate-limits--handling)
+- [Future Enhancements](#future-enhancements)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Overview
 The **Crypto Valuation & Sentiment Analysis Dash App** is a web-based application built using **Dash, Flask, and CCXT** to analyze cryptocurrencies based on market data, sentiment analysis, and velocity calculations. The app integrates data from **CoinMarketCap, CCXT-supported exchanges, OpenAI GPT-4, and Reddit/Google Trends** to provide users with real-time insights into cryptocurrency valuation and sentiment trends.
@@ -61,3 +72,4 @@ Feel free to fork this repository and contribute improvements via pull requests.
 
 ## License
 This project is licensed under the **MIT License**.
+
