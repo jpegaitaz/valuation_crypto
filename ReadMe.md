@@ -1,4 +1,4 @@
-![Build Status](https://github.com/jpegaitaz/valuation_crypto/actions/workflows/codeql.yml/badge.svg)[![Codacy Badge](https://app.codacy.com/project/badge/Grade/31d4d5d3746046599dd47dc8e0a66dff)](https://app.codacy.com/gh/jpegaitaz/valuation_crypto/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)[![Coverage Status](https://coveralls.io/repos/github/your_username/your_repo/badge.svg?branch=main)](https://coveralls.io/github/your_username/your_repo?branch=main)
+![Build Status](https://github.com/jpegaitaz/valuation_crypto/actions/workflows/codeql.yml/badge.svg)[![Codacy Badge](https://app.codacy.com/project/badge/Grade/31d4d5d3746046599dd47dc8e0a66dff)](https://app.codacy.com/gh/jpegaitaz/valuation_crypto/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)[![Coverage Status](https://coveralls.io/repos/github/jpegaitaz/valuation_crypto/badge.svg?branch=main)](https://coveralls.io/github/your_username/your_repo?branch=main)
 
 
 # Crypto Valuation & Sentiment Analysis Dash App
