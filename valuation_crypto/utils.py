@@ -1,12 +1,11 @@
 import ccxt
 import requests
 from openai import OpenAI
-from apikey import cmc_api, openai_key
+from valuation_crypto.apikey import cmc_api, openai_key
 import ccxt
 import requests
 from openai import OpenAI
-import market_sentiment_reddit_gtrend as market_sentiment_reddit_gtrend  
-
+from valuation_crypto import market_sentiment_reddit_gtrend  # ✅ Correct absolute import
 
 # Initialize OpenAI client
 client = OpenAI(api_key=openai_key)

@@ -1,6 +1,6 @@
 import dash
 from dash import dcc, html, Input, Output, State
-from utils import analyze_crypto
+from valuation_crypto.utils import analyze_crypto
 import plotly.express as px
 
 # Initialize Dash app
