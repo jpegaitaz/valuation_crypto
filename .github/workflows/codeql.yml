@@ -22,8 +22,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-        - language: python
-          build-mode: none
+          - language: python
+            build-mode: none
 
     steps:
     - name: Checkout repository
@@ -42,23 +42,27 @@ jobs:
 
     - name: Verify dependencies
       run: |
-        pip check || true  # Allows pipeline to continue even if warnings are found
+        # Allows pipeline to continue even if some warnings appear
+        pip check || true
 
     - name: Run Tests and Collect Coverage
       run: |
-        pytest --cov=valuation_crypto --cov-report=xml || true  # Continue pipeline even if tests fail
+        # Runs tests, collecting coverage info for 'valuation_crypto' and 'tests' directories
+        # Generates coverage.xml (for Coveralls) and prints coverage summary in logs
+        pytest --cov=valuation_crypto --cov=tests --cov-report=xml --cov-report=term-missing || true
 
     - name: Debug Failed Tests (if any)
       if: failure()
       run: |
         echo "Tests failed. Reviewing logs..."
-        pytest -v --maxfail=5 --disable-warnings || true  # Outputs detailed logs without breaking the build
+        pytest -v --maxfail=5 --disable-warnings || true
 
     - name: Upload Coverage to Coveralls
       env:
         COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
         COVERALLS_SERVICE_NAME: github-actions
-      run: coveralls --service=github-actions || true  # Ensures pipeline doesn't fail if Coveralls has issues
+      run: |
+        coveralls --service=github-actions || true
 
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v3
@@ -69,4 +73,4 @@ jobs:
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
       with:
-        category: "/language:${{matrix.language}}"
+        category: "/language:${{ matrix.language }}"
