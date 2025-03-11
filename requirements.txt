@@ -2,7 +2,7 @@
 pytest==8.3.5
 pytest-cov==6.0.0
 coveralls==3.3.1
-coverage==6.5.0  # Keeping the version fixed for stability
+coverage>=7.5  # Keeping the version fixed for stability
 
 # Web Framework & Dependencies
 dash==2.18.2
