@@ -2,11 +2,10 @@ import pytest
 import dash
 import requests
 import valuation_crypto.app as app_module
+import valuation_crypto.utils as utils
 from unittest.mock import patch, MagicMock
 
-# ----------------------
-# ✅ TEST: Fetch Crypto Data
-# ----------------------
+# 🔹 Mock Crypto Data Fixture
 @pytest.fixture
 def mock_crypto_data():
     return {
@@ -16,7 +15,8 @@ def mock_crypto_data():
         "circulating_supply": 19000000
     }
 
-@patch("valuation_crypto.app.requests.get")
+# 🔹 Test: Fetch Crypto Data
+@patch("valuation_crypto.utils.requests.get")  # ✅ Update import path
 def test_fetch_crypto_data(mock_get, mock_crypto_data):
     """Test fetching crypto data from CoinMarketCap API"""
     mock_response = MagicMock()
@@ -24,18 +24,17 @@ def test_fetch_crypto_data(mock_get, mock_crypto_data):
     mock_response.json.return_value = {"data": {"BTC": mock_crypto_data}}
     mock_get.return_value = mock_response
 
-    result = app_module.fetch_crypto_data("BTC")
+    result = utils.fetch_crypto_data("BTC")  # ✅ Call from utils.py
     
     assert result is not None
     assert result["name"] == "Bitcoin"
     assert result["symbol"] == "BTC"
     assert result["quote"]["USD"]["price"] == 50000
 
-# ----------------------
-# ✅ TEST: Fetch Trading Volume (Mocking CCXT API)
-# ----------------------
-@patch("valuation_crypto.app.ccxt.binance")
-@patch("valuation_crypto.app.ccxt.kraken")
+
+# 🔹 Test: Fetch Trading Volume (Mocking CCXT API)
+@patch("valuation_crypto.utils.ccxt.binance")  # ✅ Update import path
+@patch("valuation_crypto.utils.ccxt.kraken")
 def test_fetch_trading_volume(mock_binance, mock_kraken):
     """Test trading volume retrieval across multiple exchanges"""
     mock_exchange = MagicMock()
@@ -43,37 +42,34 @@ def test_fetch_trading_volume(mock_binance, mock_kraken):
     mock_binance.return_value = mock_exchange
     mock_kraken.return_value = mock_exchange
 
-    result = app_module.fetch_trading_volume("BTC", ["binance", "kraken"])
+    result = utils.fetch_trading_volume("BTC", ["binance", "kraken"])  # ✅ Call from utils.py
     
-    assert result == 2000  # (1000 from binance + 1000 from kraken)
+    assert result == 2000 
 
-# ----------------------
-# ✅ TEST: Analyze Crypto Data
-# ----------------------
-@patch("valuation_crypto.app.fetch_crypto_data")
-@patch("valuation_crypto.app.fetch_trading_volume")
-@patch("valuation_crypto.app.market_sentiment_reddit_gtrend.aggregate_sentiment_analysis")
+
+# 🔹 Test: Analyze Crypto Data
+@patch("valuation_crypto.utils.fetch_crypto_data")  # ✅ Update import path
+@patch("valuation_crypto.utils.fetch_trading_volume")
+@patch("valuation_crypto.utils.market_sentiment_reddit_gtrend.aggregate_sentiment_analysis")
 def test_analyze_crypto(mock_sentiment, mock_volume, mock_data, mock_crypto_data):
     """Test analyze_crypto function with mocked API responses"""
     mock_data.return_value = mock_crypto_data
-    mock_volume.return_value = 5000  # Mocked trading volume
+    mock_volume.return_value = 5000  
     mock_sentiment.return_value = {"BTC": {"combined_sentiment_score": 0.1, "current_mentions": 10, "previous_mentions": 5}}
 
-    result, _ = app_module.analyze_crypto("BTC")
+    result, _ = utils.analyze_crypto("BTC")  # ✅ Call from utils.py
     
-    assert "Ticker: Bitcoin (BTC)" in result.children[0].children  # Ensure the result contains Bitcoin details
+    assert "Ticker: Bitcoin (BTC)" in result.children[0].children 
 
-# ----------------------
-# ✅ TEST: Dash App Loads Correctly
-# ----------------------
+
+# 🔹 Test: Dash App Loads Correctly
 def test_dash_app():
     """Test Dash app initialization"""
     assert isinstance(app_module.app, dash.Dash)
-    assert app_module.app.title == "Crypto Valuation & Analysis"
+    assert app_module.app.title == "Crypto Valuation & Sentiment Analysis"
 
-# ----------------------
-# ✅ TEST: Dash Layout Contains Components
-# ----------------------
+
+# 🔹 Test: Dash Layout Contains Components
 def test_dash_layout():
     """Test that Dash app layout contains the expected elements"""
     layout = app_module.app.layout
@@ -87,10 +83,9 @@ def test_dash_layout():
     button = next((comp for comp in layout.children if isinstance(comp, dash.html.Div) and isinstance(comp.children, dash.html.Button)), None)
     assert button is not None, "Analyze button not found in layout"
 
-# ----------------------
-# ✅ TEST: Dash Callback Execution
-# ----------------------
-@patch("valuation_crypto.app.analyze_crypto")
+
+# 🔹 Test: Dash Callback Execution
+@patch("valuation_crypto.utils.analyze_crypto")  # ✅ Update import path
 def test_dash_callback(mock_analyze_crypto):
     """Test Dash callback function"""
     mock_analyze_crypto.return_value = ("Mock Analysis", "mock_image_url")
