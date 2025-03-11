@@ -21,14 +21,14 @@ app.layout = html.Div(
         html.H1("CRYPTO VALUATION & SENTIMENT ANALYSIS", 
                 style={"textAlign": "center", "color": "white", "font-family": "monospace", "font-size":"20px", "margin-bottom":"20px"}),
 
-        # 🔹 **Image Display (Above Analysis)**
+        # Image Display
         html.Div(id="image-container",
             children=[html.Img(id="crypto-image", src="", 
                                style={"width": "512px", "height": "512px", "display": "none"})],
             style={"margin-bottom": "20px", "display": "flex", "justify-content": "center"}
         ),
 
-        # 🔹 **Input Field**
+        # Input Field
         html.Div(
             dcc.Input(
                 id='crypto-symbol',
@@ -42,7 +42,7 @@ app.layout = html.Div(
             style={"margin-bottom": "10px"}
         ),
 
-        # 🔹 **Analyze Button**
+        # Analyze Button
         html.Div(
             html.Button('Analyze', id='analyze-button', n_clicks=0,
                 style={"width": "100px", "padding": "10px", "background-color": "red", 
@@ -53,13 +53,13 @@ app.layout = html.Div(
             style={"margin-bottom": "20px"}
         ),
 
-        # 🔹 **AI Analysis Output (Metrics + AI Analysis Text)**
+        # AI Analysis Output
         html.Div(id='analysis-output',
             style={"margin-top": "20px", "text-align": "left", "white-space": "pre-wrap", 
                    "padding-left": "500px", "padding-right": "500px", "padding-top": "25px"}
         ),
 
-        # 🔹 **Price vs Velocity Graph (Above)**
+        # Price vs Velocity Graph
         html.Div(
             id="graph-container",
             children=[dcc.Graph(id="price-velocity-graph", 
@@ -68,7 +68,7 @@ app.layout = html.Div(
             style={"display": "flex", "justify-content": "center", "margin-top": "20px"}
         ),
 
-        # 🔹 **Sentiment Score vs Valuation Difference Graph (Below)**
+        # Sentiment Score vs Valuation Difference Graph
         html.Div(
             id="sentiment-graph-container",
             children=[dcc.Graph(id="sentiment-valuation-graph", 
@@ -87,7 +87,7 @@ app.layout = html.Div(
      Output('graph-container', 'style'),
      Output('sentiment-graph-container', 'style'),
      Output('price-velocity-graph', 'figure'),
-     Output('sentiment-valuation-graph', 'figure')],  # New output
+     Output('sentiment-valuation-graph', 'figure')],  
     Input('analyze-button', 'n_clicks'),
     State('crypto-symbol', 'value')
 )
@@ -99,7 +99,7 @@ def update_output(n_clicks, symbol):
         if "error" in analysis_data:
             return html.Div(analysis_data["error"], style={"color": "red", "font-weight": "bold"}), "", {"display": "none"}, {"display": "none"}, {"display": "none"}, {"display": "none"}, px.scatter(), px.scatter()
 
-        # 🔹 **Metrics Display**
+        # Metrics Display
         metrics_display = f"""
         - Ticker: {symbol.upper()}
         - Price: ${analysis_data['current_price']}
@@ -114,7 +114,7 @@ def update_output(n_clicks, symbol):
         - Market Sentiment %: {analysis_data['market_sentiment_percentage']}
         """
 
-        # 🔹 **AI Analysis Section**
+        # AI Analysis Section
         analysis_content = html.Div([
             html.Hr(),
             html.H3("Crypto Metrics"),
@@ -127,7 +127,7 @@ def update_output(n_clicks, symbol):
             html.Hr()        
         ])
 
-        # 🔹 **Generate Price vs. Velocity Graph**
+        # Generate Price vs. Velocity Graph
         fig1 = px.scatter(
             x=[analysis_data['velocity']], 
             y=[analysis_data['current_price']],
@@ -135,7 +135,7 @@ def update_output(n_clicks, symbol):
             title=f"{symbol.upper()} Price vs. Velocity",
             template="plotly_dark"
         )
-        fig1.update_traces(marker=dict(size=12, color='yellow'))  # Highlight data point
+        fig1.update_traces(marker=dict(size=12, color='yellow')) 
         fig1.update_layout(
             font=dict(family="monospace", size=10),
             margin=dict(l=40, r=40, t=40, b=40),
@@ -143,7 +143,7 @@ def update_output(n_clicks, symbol):
             yaxis_title="Price (USDT)"
         )
 
-        # 🔹 **Generate Sentiment Score vs Valuation Difference Graph**
+        # Generate Sentiment Score vs Valuation Difference Graph
         fig2 = px.scatter(
             x=[analysis_data['sentiment_score']], 
             y=[analysis_data['valuation_difference']],
@@ -151,7 +151,7 @@ def update_output(n_clicks, symbol):
             title=f"{symbol.upper()} Sentiment Score vs. Valuation Difference",
             template="plotly_dark"
         )
-        fig2.update_traces(marker=dict(size=12, color='cyan'))  # Highlight data point
+        fig2.update_traces(marker=dict(size=12, color='cyan')) 
         fig2.update_layout(
             font=dict(family="monospace", size=10),
             margin=dict(l=40, r=40, t=40, b=40),
@@ -159,18 +159,18 @@ def update_output(n_clicks, symbol):
             yaxis_title="Valuation Difference (USDT)"
         )
 
-        # 🔹 **Ensure Image is Above AI Analysis**
+
         image_style = {"width": "512px", "height": "512px", "display": "block", "border": "4px solid white", "margin-top": "20px"} if image_url else {"display": "none"}
         image_container_style = {"display": "flex", "justify-content": "center", "margin-top": "20px", "margin-bottom": "20px"} if image_url else {"display": "none"}
         
-        # ✅ Updated: Separate Graph Container Styles
-        graph_container_style = {"display": "flex", "justify-content": "center", "margin-top": "20px", "margin-bottom": "20px"}  # Always visible
-        sentiment_graph_container_style = {"display": "flex", "justify-content": "center", "margin-top": "20px"}  # Below the first graph
+       
+        graph_container_style = {"display": "flex", "justify-content": "center", "margin-top": "20px", "margin-bottom": "20px"} 
+        sentiment_graph_container_style = {"display": "flex", "justify-content": "center", "margin-top": "20px"} 
 
         return analysis_content, image_url, image_style, image_container_style, graph_container_style, sentiment_graph_container_style, fig1, fig2
 
     return "", "", {"display": "none"}, {"display": "none"}, {"display": "none"}, {"display": "none"}, px.scatter(), px.scatter()
 
-# 📌 **Run Server**
+# Run Server
 if __name__ == '__main__':
     app.run_server(debug=True)
