@@ -17,3 +17,4 @@ __pycache__/
 # Ignore system files (Mac & Windows)
 .DS_Store
 Thumbs.db
+valuation_crypto/apikey.py
