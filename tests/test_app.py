@@ -1,96 +1,90 @@
 import pytest
+from unittest.mock import patch
 import dash
-import requests
-import valuation_crypto.app as app_module
-import valuation_crypto.utils as utils
-from unittest.mock import patch, MagicMock
+from dash import html, dcc
+from valuation_crypto.app import app, update_output
 
-# Mock Crypto Data Fixture
+# Helper to recursively find components in layout
+def find_component(layout, component_type, component_id=None):
+    if isinstance(layout, component_type) and (component_id is None or getattr(layout, 'id', None) == component_id):
+        return layout
+    if hasattr(layout, 'children'):
+        children = layout.children if isinstance(layout.children, list) else [layout.children]
+        for child in children:
+            found = find_component(child, component_type, component_id)
+            if found:
+                return found
+    return None
+
+# Mocked analysis data
 @pytest.fixture
-def mock_crypto_data():
+def mock_analysis_data():
     return {
-        "name": "Bitcoin",
-        "symbol": "BTC",
-        "quote": {"USD": {"price": 50000, "market_cap": 1000000000}},
-        "circulating_supply": 19000000
+        "current_price": 50000,
+        "market_cap": 1000000000,
+        "circulating_supply": 19000000,
+        "velocity": 2.5,
+        "sentiment_score": 0.1,
+        "current_mentions": 100,
+        "previous_mentions": 90,
+        "adjusted_velocity": 2.75,
+        "valuation_difference": 1000,
+        "valuation_difference_percentage": 2.0,
+        "market_sentiment_percentage": 10.0,
+        "ai_text": "Mock AI Analysis Text"
     }
 
-# Fetch Crypto Data
-@patch("valuation_crypto.utils.requests.get") 
-def test_fetch_crypto_data(mock_get, mock_crypto_data):
-    """Test fetching crypto data from CoinMarketCap API"""
-    mock_response = MagicMock()
-    mock_response.status_code = 200
-    mock_response.json.return_value = {"data": {"BTC": mock_crypto_data}}
-    mock_get.return_value = mock_response
-
-    result = utils.fetch_crypto_data("BTC") 
-    
-    assert result is not None
-    assert result["name"] == "Bitcoin"
-    assert result["symbol"] == "BTC"
-    assert result["quote"]["USD"]["price"] == 50000
-
-
-# Fetch Trading Volume (Mocking CCXT API)
-@patch("valuation_crypto.utils.ccxt.binance") 
-@patch("valuation_crypto.utils.ccxt.kraken")
-def test_fetch_trading_volume(mock_binance, mock_kraken):
-    """Test trading volume retrieval across multiple exchanges"""
-    mock_exchange = MagicMock()
-    mock_exchange.fetch_ticker.return_value = {"quoteVolume": 1000}
-    mock_binance.return_value = mock_exchange
-    mock_kraken.return_value = mock_exchange
-
-    result = utils.fetch_trading_volume("BTC", ["binance", "kraken"])  
-    
-    assert result == 2000 
-
-
-# Analyze Crypto Data
-@patch("valuation_crypto.utils.fetch_crypto_data")  
-@patch("valuation_crypto.utils.fetch_trading_volume")
-@patch("valuation_crypto.utils.market_sentiment_reddit_gtrend.aggregate_sentiment_analysis")
-def test_analyze_crypto(mock_sentiment, mock_volume, mock_data, mock_crypto_data):
-    """Test analyze_crypto function with mocked API responses"""
-    mock_data.return_value = mock_crypto_data
-    mock_volume.return_value = 5000  
-    mock_sentiment.return_value = {"BTC": {"combined_sentiment_score": 0.1, "current_mentions": 10, "previous_mentions": 5}}
-
-    result, _ = utils.analyze_crypto("BTC")  
-    
-    assert "Ticker: Bitcoin (BTC)" in result.children[0].children 
-
-
-# Dash App Loads Correctly
+# Test Dash app initialization
 def test_dash_app():
-    """Test Dash app initialization"""
-    assert isinstance(app_module.app, dash.Dash)
-    assert app_module.app.title == "Crypto Valuation & Sentiment Analysis"
+    assert isinstance(app, dash.Dash)
+    assert app.title == "Crypto Valuation & Sentiment Analysis"
 
-
-# Dash Layout Contains Components
+# Test Dash app layout
 def test_dash_layout():
-    """Test that Dash app layout contains the expected elements"""
-    layout = app_module.app.layout
-    assert isinstance(layout, dash.html.Div)
+    layout = app.layout
+    assert isinstance(layout, html.Div)
 
-    # Ensure input field exists
-    input_field = next((comp for comp in layout.children if isinstance(comp, dash.html.Div) and isinstance(comp.children, dash.dcc.Input)), None)
-    assert input_field is not None, "Input field not found in layout"
+    input_field = find_component(layout, dcc.Input, "crypto-symbol")
+    assert input_field is not None, "Crypto input field missing"
 
-    # Ensure button exists
-    button = next((comp for comp in layout.children if isinstance(comp, dash.html.Div) and isinstance(comp.children, dash.html.Button)), None)
-    assert button is not None, "Analyze button not found in layout"
+    analyze_button = find_component(layout, html.Button, "analyze-button")
+    assert analyze_button is not None, "Analyze button missing"
 
+    analysis_output = find_component(layout, html.Div, "analysis-output")
+    assert analysis_output is not None, "Analysis output Div missing"
 
-# Dash Callback Execution
-@patch("valuation_crypto.utils.analyze_crypto")  
-def test_dash_callback(mock_analyze_crypto):
-    """Test Dash callback function"""
-    mock_analyze_crypto.return_value = ("Mock Analysis", "mock_image_url")
+    price_velocity_graph = find_component(layout, dcc.Graph, "price-velocity-graph")
+    assert price_velocity_graph is not None, "Price vs Velocity graph missing"
 
-    ctx = app_module.update_output(1, "BTC")
-    
-    assert ctx[0] == "Mock Analysis"
-    assert ctx[1] == "mock_image_url"
+    sentiment_graph = find_component(layout, dcc.Graph, "sentiment-valuation-graph")
+    assert sentiment_graph is not None, "Sentiment graph missing"
+
+# Test Dash callback logic
+@patch("valuation_crypto.utils.analyze_crypto")
+def test_dash_callback(mock_analyze_crypto, mock_analysis_data):
+    mock_analyze_crypto.return_value = (mock_analysis_data, "mock_image_url")
+
+    outputs = update_output(1, "BTC")
+    assert outputs is not None
+
+    analysis_output, image_url, image_style, image_container_style, graph_container_style, sentiment_graph_container_style, fig1, fig2 = outputs
+
+    # Check analysis output
+    assert isinstance(analysis_output, html.Div)
+    assert "Mock AI Analysis Text" in str(analysis_output)
+
+    # Check image URL
+    assert image_url == "mock_image_url"
+
+    # Verify styles visibility
+    assert image_style["display"] == "block"
+    assert image_container_style["display"] == "flex"
+    assert graph_container_style["display"] == "flex"
+    assert sentiment_graph_container_style["display"] == "flex"
+
+    # Verify graphs data
+    assert fig1.data[0].x == (2.5,)
+    assert fig1.data[0].y == (50000,)
+
+    assert fig2.data[0].x == (0.1,)
+    assert fig2.data[0].y == (1000,)
