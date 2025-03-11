@@ -44,6 +44,9 @@ def test_dash_layout():
     layout = app.layout
     assert isinstance(layout, html.Div)
 
+    # Debugging print statements
+    print(f"DEBUG: Layout structure -> {layout}")
+
     assert find_component(layout, "crypto-symbol"), "Crypto input field missing"
     assert find_component(layout, "analyze-button"), "Analyze button missing"
     assert find_component(layout, "analysis-output"), "Analysis output missing"
@@ -67,6 +70,10 @@ def test_analyze_crypto(mock_openai, mock_sentiment, mock_volume, mock_data, moc
     mock_openai.return_value.choices = [MagicMock(message=MagicMock(content="Mock AI Analysis Text"))]
 
     result, img = utils.analyze_crypto("BTC")
+    
+    # Debugging prints
+    print(f"DEBUG: analyze_crypto result -> {result}")
+
     assert result["current_price"] == 50000
     assert result["market_cap"] == 1000000000
     assert result["sentiment_score"] == 0.1
@@ -81,12 +88,20 @@ def test_dash_callback(mock_analyze_crypto, mock_analysis_data):
     assert outputs is not None
 
     analysis_output, image_url, *_ = outputs
+
+    # Debugging print statements
+    print(f"DEBUG: Received analysis_output -> {analysis_output}")
+
     assert "Mock AI Analysis Text" in str(analysis_output)
     assert image_url == "mock_image_url"
 
 # Test empty input callback
 def test_dash_callback_empty_input():
     outputs = update_output(0, "")
+    
+    # Debugging print statements
+    print(f"DEBUG: Empty input callback output -> {outputs}")
+
     assert outputs is not None
     assert outputs[0] == "", "Expected empty response when input is empty"
 
@@ -96,7 +111,10 @@ def test_dash_callback_invalid_symbol(mock_analyze_crypto):
     mock_analyze_crypto.return_value = ({"error": "Invalid Crypto Symbol or Data Unavailable."}, None)
 
     outputs = update_output(1, "INVALID")
+    
+    # Debugging print statements
+    print(f"DEBUG: Invalid symbol callback output -> {outputs}")
+
     assert outputs is not None
     analysis_output, image_url, *_ = outputs
     assert "Invalid Crypto Symbol or Data Unavailable." in str(analysis_output)
-
