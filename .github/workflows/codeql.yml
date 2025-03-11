@@ -2,16 +2,16 @@ name: "CodeQL Advanced with Coveralls"
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
   schedule:
-    - cron: '15 17 * * 3'  # Runs every Wednesday at 17:15 UTC
+    - cron: '15 17 * * 3'
 
 jobs:
   analyze:
     name: Analyze (${{ matrix.language }})
-    runs-on: ${{ (matrix.language == 'swift' && 'macos-latest') || 'ubuntu-latest' }}
+    runs-on: ubuntu-latest
     permissions:
       security-events: write
       packages: read
@@ -28,17 +28,17 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-
+    
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
-        python-version: '3.x'
+        python-version: '3.12'
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install --no-cache-dir --no-deps -r requirements.txt
-        pip install pytest pytest-cov coveralls coverage==6.5.0
+        pip install -r requirements.txt
+        pip install coverage==6.5.0 pytest pytest-cov coveralls typing_extensions
 
     - name: Run Tests and Collect Coverage
       run: |
