@@ -5,7 +5,7 @@ from valuation_crypto.apikey import cmc_api, openai_key
 import ccxt
 import requests
 from openai import OpenAI
-from valuation_crypto import market_sentiment_reddit_gtrend  # ✅ Correct absolute import
+from valuation_crypto import market_sentiment_reddit_gtrend  
 
 # Initialize OpenAI client
 client = OpenAI(api_key=openai_key)

@@ -11,7 +11,7 @@ def mock_crypto_data():
         "circulating_supply": 19000000
     }
 
-# ✅ Test fetching crypto data from API
+# fetching crypto data from API
 @patch("valuation_crypto.utils.requests.get")
 def test_fetch_crypto_data(mock_get, mock_crypto_data):
     mock_response = MagicMock()
@@ -26,7 +26,7 @@ def test_fetch_crypto_data(mock_get, mock_crypto_data):
     assert result["symbol"] == "BTC"
     assert result["quote"]["USD"]["price"] == 50000
 
-# ✅ Test API error handling
+# API error handling
 @patch("valuation_crypto.utils.requests.get")
 def test_fetch_crypto_data_error(mock_get):
     mock_response = MagicMock()
@@ -37,7 +37,7 @@ def test_fetch_crypto_data_error(mock_get):
 
     assert result is None, "Expected None response for invalid API call"
 
-# ✅ Test fetching trading volume from multiple exchanges
+# Fetching trading volume from multiple exchanges
 @patch("valuation_crypto.utils.ccxt.binance")
 @patch("valuation_crypto.utils.ccxt.kraken")
 def test_fetch_trading_volume(mock_binance, mock_kraken):
@@ -58,7 +58,7 @@ def test_fetch_trading_volume(mock_binance, mock_kraken):
 
     assert result == 3500, f"Expected 3500, got {result}"
 
-# ✅ Test handling of missing trading volume
+# Handling of missing trading volume
 @patch("valuation_crypto.utils.ccxt.binance")
 def test_fetch_trading_volume_no_data(mock_binance):
     mock_exchange = MagicMock()
@@ -72,7 +72,7 @@ def test_fetch_trading_volume_no_data(mock_binance):
 
     assert result == 0, f"Expected 0, got {result}"
 
-# ✅ Test `analyze_crypto` function
+# Test `analyze_crypto` function
 @patch("valuation_crypto.utils.fetch_crypto_data")
 @patch("valuation_crypto.utils.fetch_trading_volume")
 @patch("valuation_crypto.market_sentiment_reddit_gtrend.aggregate_sentiment_analysis")
@@ -98,7 +98,7 @@ def test_analyze_crypto(mock_dalle, mock_chatgpt, mock_sentiment, mock_volume, m
     assert result["ai_text"] == "Mock OpenAI analysis"
     assert image_url == "mock_image_url"
 
-# ✅ Test handling of invalid crypto symbol in `analyze_crypto`
+# Handling of invalid crypto symbol in `analyze_crypto`
 @patch("valuation_crypto.utils.fetch_crypto_data")
 def test_analyze_crypto_invalid_symbol(mock_fetch):
     mock_fetch.return_value = None
@@ -108,7 +108,7 @@ def test_analyze_crypto_invalid_symbol(mock_fetch):
     assert "error" in result, "Expected error message in response"
     assert image_url is None, "Expected None for invalid symbol image URL"
 
-# ✅ Test OpenAI API failure handling
+# OpenAI API failure handling
 @patch("valuation_crypto.utils.fetch_crypto_data")
 @patch("valuation_crypto.utils.fetch_trading_volume")
 @patch("valuation_crypto.market_sentiment_reddit_gtrend.aggregate_sentiment_analysis")

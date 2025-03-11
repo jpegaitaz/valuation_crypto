@@ -1,24 +1,24 @@
-# Testing & Coverage
-pytest==8.3.5
-pytest-cov==4.0.0  # Compatible with coveralls
-coveralls==3.3.1
-coverage<7.0  # Required by coveralls
 
-# Web Framework & Dependencies
+pytest==8.3.5
+pytest-cov==4.0.0  
+coveralls==3.3.1
+coverage<7.0  
+
+
 dash==2.18.2
 requests==2.32.3
 loguru==0.7.2
 
-# Crypto & Trading APIs
+
 ccxt==4.4.65
 openai==1.65.5
 praw==7.8.1
 pytrends==4.9.2
 
-# NLP & Sentiment Analysis
+
 textblob==0.19.0
 
-# Compatibility & Utilities
-typing_extensions>=4.12.2  # Needed for Python < 3.10
+
+typing_extensions>=4.12.2  
 wheel==0.43.0
 setuptools==76.0.0
