@@ -1,8 +1,8 @@
 # Testing & Coverage
 pytest==8.3.5
-pytest-cov==6.0.0
+pytest-cov==4.0.0  # Compatible with coveralls
 coveralls==3.3.1
-coverage>=7.5  # Keeping the version fixed for stability
+coverage<7.0  # Required by coveralls
 
 # Web Framework & Dependencies
 dash==2.18.2
